@@ -1,9 +1,11 @@
 :root {
+  --main-color: #EA2458;
+  --secundary-color: #F55B81;
+  --terciary-color: #FAE4EB;
+  --darkest-color: #484E51;
+  --gray-color: #91878A;
+  --ligth-gray-color: #AFA8AA;
   --buttons-color: #E20040;
-  --titles-color: #D3255B;
-  --subtitles-color: #91878A;
-  --paragraph-color: #4D3C41;
-  --il-color: #ff2456;
 }
 
 body {

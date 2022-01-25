@@ -1,15 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-
 import Header from "./components/Header";
 import StyledButton from "./components/StyledButton";
 import ImageHeader from "./img/fondototal1.png";
+import DecoImage from "./img/someImages.png";
+import DecoImage1 from "./img/someImages-1.png";
 import Photo from "./img/photo.png";
 import { Col, Container, Row } from "react-bootstrap";
 
 const PrincipalContainer = styled.div`
   display: flex;
   width: 100vw;
+  margin:0;
 `;
 
 const HomeContainer = styled.div`
@@ -29,6 +31,50 @@ const PrincipalImage = styled.img`
 const CentralPhoto = styled.img`
   height: 300px;
 `;
+
+const ImagenFondoDeco = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+  margin-bottom: 250px;
+  background-image: url(${DecoImage});
+  background-size: 100% 100%;
+`;
+
+const ImagenFondoDeco1 = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+  margin: 0;
+  background-image: url(${DecoImage1});
+  background-size: 100% 100%;
+`;
+
+const AboutSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+`;
+
+
+const Title = styled.span`
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  color: var(--main-color);
+  font-size: 45px;
+  font-weight: 500;
+  line-height:1.20;
+`;
+
+
+
 
 const Principal = () => {
   return (
@@ -52,10 +98,33 @@ const Principal = () => {
               <StyledButton Title="Contact me"></StyledButton>
             </Col>
           </Row>
-          <Row className="m-0 p-0 flex-md-wrap">second</Row>
+          <Row className="m-0 p-0 h-100 w-100">
+            <Col lg={2} className="p-0">
+              {/* <ImagenFondoDeco1 /> */}
+            </Col>
+            <Col lg={8} className="p-0">
+              <AboutSection>
+                <Title>
+                  About me
+                </Title>
+                <p class="text-center">
+                  2 + years of experience, solid background in programming. An
+                  insatiable curiosity and lifelong learning. Working to become
+                  a full-time data scientist, passionate about database
+                  management and data analysis, with good SQL experience to
+                  extract and manage data. Demonstrated oral, written
+                  communication and presentation skills by being a teacher for
+                  4+ years.
+                </p>
+                <StyledButton Title="Download CV"></StyledButton>
+              </AboutSection>
+            </Col>
+            <Col lg={2} className="p-0">
+              <ImagenFondoDeco />
+            </Col>
+          </Row>
         </div>
       </HomeContainer>
-      {/* <StyledButton Title="Contact me"></StyledButton> */}
     </PrincipalContainer>
   );
 };

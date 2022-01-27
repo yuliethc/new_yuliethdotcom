@@ -14,7 +14,7 @@ class Header extends Component {
           sticky="top"
           style={{ height: "60px", width: "100%", justifyContent:"space-between", paddingLeft:"50px", paddingRight:"50px", backgroundImage:`url(${ImageHeader})`}}
         >
-          <Navbar.Brand href="/main" style={{ fontSize: "23px" }}>
+          <Navbar.Brand href="/" style={{ fontSize: "23px" }}>
             Yulieth Lubo
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

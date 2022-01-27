@@ -7,11 +7,12 @@ import DecoImage from "./img/someImages.png";
 import DecoImage1 from "./img/someImages-1.png";
 import Photo from "./img/photo.png";
 import { Col, Container, Row } from "react-bootstrap";
+import MyCV from "./files/CV2022.pdf";
 
 const PrincipalContainer = styled.div`
   display: flex;
   width: 100vw;
-  margin:0;
+  margin: 0;
 `;
 
 const HomeContainer = styled.div`
@@ -62,7 +63,6 @@ const AboutSection = styled.div`
   width: 100%;
 `;
 
-
 const Title = styled.span`
   text-align: center;
   margin-bottom: 40px;
@@ -70,11 +70,8 @@ const Title = styled.span`
   color: var(--main-color);
   font-size: 45px;
   font-weight: 500;
-  line-height:1.20;
+  line-height: 1.2;
 `;
-
-
-
 
 const Principal = () => {
   return (
@@ -104,9 +101,7 @@ const Principal = () => {
             </Col>
             <Col lg={8} className="p-0">
               <AboutSection>
-                <Title>
-                  About me
-                </Title>
+                <Title>About me</Title>
                 <p class="text-center">
                   2 + years of experience, solid background in programming. An
                   insatiable curiosity and lifelong learning. Working to become
@@ -116,7 +111,10 @@ const Principal = () => {
                   communication and presentation skills by being a teacher for
                   4+ years.
                 </p>
-                <StyledButton Title="Download CV"></StyledButton>
+
+                <a href={MyCV} download="CV_Yulieth_Lubo.pdf">
+                  <StyledButton Title="Download CV"></StyledButton>
+                </a>
               </AboutSection>
             </Col>
             <Col lg={2} className="p-0">

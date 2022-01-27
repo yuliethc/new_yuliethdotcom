@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Header from "./components/Header";
 import StyledButton from "./components/StyledButton";
+import StyledWhiteButton from "./components/StyledWhiteButton";
 import ImageHeader from "./img/fondototal1.png";
 import DecoImage from "./img/someImages.png";
 import DecoImage1 from "./img/someImages-1.png";
@@ -39,7 +40,7 @@ const ImagenFondoDeco = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 80%;
-  margin-bottom: 250px;
+  margin-bottom: 300px;
   background-image: url(${DecoImage});
   background-size: 100% 100%;
 `;
@@ -50,7 +51,7 @@ const ImagenFondoDeco1 = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 80%;
-  margin: 0;
+  margin-top: 300px;
   background-image: url(${DecoImage1});
   background-size: 100% 100%;
 `;
@@ -61,6 +62,14 @@ const AboutSection = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 100%;
+`;
+const SkillsSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
 `;
 
 const Title = styled.span`
@@ -92,17 +101,17 @@ const Principal = () => {
               <h6>Hello I'm</h6>
               <h1>Yulieth Lubo</h1>
               <h5>Software Developer & Entry-Level Data Scientist</h5>
-              <StyledButton Title="Contact me"></StyledButton>
+              <StyledWhiteButton Title="Contact me"></StyledWhiteButton>
             </Col>
           </Row>
           <Row className="m-0 p-0 h-100 w-100">
             <Col lg={2} className="p-0">
-              {/* <ImagenFondoDeco1 /> */}
+            <ImagenFondoDeco1 />
             </Col>
             <Col lg={8} className="p-0">
               <AboutSection>
                 <Title>About me</Title>
-                <p class="text-center">
+                <p class="text-center mb-4">
                   2 + years of experience, solid background in programming. An
                   insatiable curiosity and lifelong learning. Working to become
                   a full-time data scientist, passionate about database
@@ -111,16 +120,43 @@ const Principal = () => {
                   communication and presentation skills by being a teacher for
                   4+ years.
                 </p>
-
                 <a href={MyCV} download="CV_Yulieth_Lubo.pdf">
                   <StyledButton Title="Download CV"></StyledButton>
                 </a>
+                <SkillsSection>
+                  <Title>Skills</Title>
+                  <skills className="d-flex flex-wrap justify-content-center">
+
+                  <StyledWhiteButton Title="SQL & MySQL"></StyledWhiteButton>
+                  <StyledWhiteButton Title="JavaScript & ReactJS"></StyledWhiteButton>
+                  <StyledWhiteButton Title="HTML & CSS"></StyledWhiteButton>
+                  <StyledWhiteButton Title="Python"></StyledWhiteButton>
+                  <StyledWhiteButton Title="Git & Github"></StyledWhiteButton>
+                  <StyledWhiteButton Title="Strong analytical skills"></StyledWhiteButton>
+                  <StyledWhiteButton Title="Teamwork"></StyledWhiteButton>
+                  <StyledWhiteButton Title="Well-organized"></StyledWhiteButton>
+                  <StyledWhiteButton Title="Honesty"></StyledWhiteButton>
+                  <StyledWhiteButton Title="Accountability"></StyledWhiteButton>
+                  <StyledWhiteButton Title="English"></StyledWhiteButton>
+                  <StyledWhiteButton Title="Spanish"></StyledWhiteButton>
+                  <StyledWhiteButton Title="Italian"></StyledWhiteButton>
+                  </skills>
+                </SkillsSection>
               </AboutSection>
             </Col>
             <Col lg={2} className="p-0">
               <ImagenFondoDeco />
             </Col>
           </Row>
+
+          {/* <Row className="m-0 p-0 h-100 w-100">
+            <Col lg={2} className="p-0">
+              <ImagenFondoDeco1 />
+            </Col>
+            <Col lg={8} className="p-0">
+              
+            </Col>
+          </Row> */}
         </div>
       </HomeContainer>
     </PrincipalContainer>

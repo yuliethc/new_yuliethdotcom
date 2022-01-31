@@ -7,8 +7,9 @@ import ImageHeader from "./img/fondototal1.png";
 import DecoImage from "./img/someImages.png";
 import DecoImage1 from "./img/someImages-1.png";
 import Photo from "./img/photo.png";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import MyCV from "./files/CV2022.pdf";
+import WhiteCard from "./components/WhiteCard";
 
 const PrincipalContainer = styled.div`
   display: flex;
@@ -56,7 +57,7 @@ const ImagenFondoDeco1 = styled.div`
   background-size: 100% 100%;
 `;
 
-const AboutSection = styled.div`
+const Central = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -64,6 +65,14 @@ const AboutSection = styled.div`
   width: 100%;
 `;
 const SkillsSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+`;
+const ServicesSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -106,43 +115,70 @@ const Principal = () => {
           </Row>
           <Row className="m-0 p-0 h-100 w-100">
             <Col lg={2} className="p-0">
-            <ImagenFondoDeco1 />
+              <ImagenFondoDeco1 />
             </Col>
             <Col lg={8} className="p-0">
-              <AboutSection>
-                <Title>About me</Title>
-                <p class="text-center mb-4">
-                  2 + years of experience, solid background in programming. An
-                  insatiable curiosity and lifelong learning. Working to become
-                  a full-time data scientist, passionate about database
-                  management and data analysis, with good SQL experience to
-                  extract and manage data. Demonstrated oral, written
-                  communication and presentation skills by being a teacher for
-                  4+ years.
-                </p>
-                <a href={MyCV} download="CV_Yulieth_Lubo.pdf">
-                  <StyledButton Title="Download CV"></StyledButton>
-                </a>
+              <Central>
+                <aboutme className="d-flex flex-wrap justify-content-center">
+                  <Title>About me</Title>
+                  <p class="text-center mb-4">
+                    2 + years of experience, solid background in programming. An
+                    insatiable curiosity and lifelong learning. Working to
+                    become a full-time data scientist, passionate about database
+                    management and data analysis, with good SQL experience to
+                    extract and manage data. Demonstrated oral, written
+                    communication and presentation skills by being a teacher for
+                    4+ years.
+                  </p>
+                  <a href={MyCV} download="CV_Yulieth_Lubo.pdf">
+                    <StyledButton Title="Download CV"></StyledButton>
+                  </a>
+                </aboutme>
                 <SkillsSection>
                   <Title>Skills</Title>
                   <skills className="d-flex flex-wrap justify-content-center">
-
-                  <StyledWhiteButton Title="SQL & MySQL"></StyledWhiteButton>
-                  <StyledWhiteButton Title="JavaScript & ReactJS"></StyledWhiteButton>
-                  <StyledWhiteButton Title="HTML & CSS"></StyledWhiteButton>
-                  <StyledWhiteButton Title="Python"></StyledWhiteButton>
-                  <StyledWhiteButton Title="Git & Github"></StyledWhiteButton>
-                  <StyledWhiteButton Title="Strong analytical skills"></StyledWhiteButton>
-                  <StyledWhiteButton Title="Teamwork"></StyledWhiteButton>
-                  <StyledWhiteButton Title="Well-organized"></StyledWhiteButton>
-                  <StyledWhiteButton Title="Honesty"></StyledWhiteButton>
-                  <StyledWhiteButton Title="Accountability"></StyledWhiteButton>
-                  <StyledWhiteButton Title="English"></StyledWhiteButton>
-                  <StyledWhiteButton Title="Spanish"></StyledWhiteButton>
-                  <StyledWhiteButton Title="Italian"></StyledWhiteButton>
+                    <StyledWhiteButton Title="SQL & MySQL"></StyledWhiteButton>
+                    <StyledWhiteButton Title="JavaScript & ReactJS"></StyledWhiteButton>
+                    <StyledWhiteButton Title="HTML & CSS"></StyledWhiteButton>
+                    <StyledWhiteButton Title="Python"></StyledWhiteButton>
+                    <StyledWhiteButton Title="Git & Github"></StyledWhiteButton>
+                    <StyledWhiteButton Title="Strong analytical skills"></StyledWhiteButton>
+                    <StyledWhiteButton Title="Teamwork"></StyledWhiteButton>
+                    <StyledWhiteButton Title="Well-organized"></StyledWhiteButton>
+                    <StyledWhiteButton Title="Honesty"></StyledWhiteButton>
+                    <StyledWhiteButton Title="Accountability"></StyledWhiteButton>
+                    <StyledWhiteButton Title="English"></StyledWhiteButton>
+                    <StyledWhiteButton Title="Spanish"></StyledWhiteButton>
+                    <StyledWhiteButton Title="Italian"></StyledWhiteButton>
                   </skills>
                 </SkillsSection>
-              </AboutSection>
+                <ServicesSection>
+                  <Title>Services</Title>
+                  <services className="d-flex flex-wrap justify-content-center">
+                    <WhiteCard
+                      Title="Web Applications"
+                      Description="Developing fully functional web
+                    apllications with interactive elements
+                    and API integrations. 
+                    "
+                    ></WhiteCard>
+                    <WhiteCard
+                      Title="Responsive Web Design"
+                      Description="Developing fully functional web
+                      apllications with interactive elements
+                      and API integrations. 
+                    "
+                    ></WhiteCard>
+                    <WhiteCard
+                      Title="Web Accessibility"
+                      Description="I create low and high fidelity
+                      wireframing and user story mapping, 
+                     flows, iterative testing by prototyping.
+                    "
+                    ></WhiteCard>
+                  </services>
+                </ServicesSection>
+              </Central>
             </Col>
             <Col lg={2} className="p-0">
               <ImagenFondoDeco />

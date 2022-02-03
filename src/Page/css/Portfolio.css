@@ -1,0 +1,48 @@
+.WhiteCardStyled {
+  background-color: #fff;
+  border: none;
+  padding: 8px 18px 8px 18px;
+  border-radius: 6px;
+  border: 2px solid #fff;
+  height: 200px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 1px 8px 12px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.WhiteCardStyled:hover {
+  outline: none !important;
+  background-color: var(--buttons-color) !important;
+}
+.WhiteCardStyled:hover > p {
+  color: white !important;
+}
+.WhiteCardStyled:hover > button {
+  background-color: #fff;
+  color: var(--main-color);
+  border: 2px solid #fff;
+  box-shadow: 1px 8px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  opacity: 1 !important;
+}
+
+.WhiteCardStyled:focus {
+  outline: none !important;
+  background-color: var(--buttons-color) !important;
+}
+.WhiteCardStyled:focus > p {
+  color: white !important;
+}
+.WhiteCardStyled:focus > button {
+  background-color: #fff;
+  color: var(--main-color);
+  border: 2px solid #fff;
+  box-shadow: 1px 8px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  opacity: 1 !important;
+}

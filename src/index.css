@@ -38,3 +38,24 @@ body {
 .navbar-dark .navbar-brand:hover{
   color: var(--darkest-color) !important;
 }
+
+.nav-pills .nav-link{
+  color: var(--darkest-color) !important;
+}
+
+.nav-pills .nav-link:active{
+  color: white !important;
+  background-color: var(--main-color) !important;
+}
+.nav-pills .nav-link:focus{
+  color: white !important;
+  background-color: var(--main-color) !important;
+}
+.nav-pills .nav-link:hover{
+  color: white !important;
+  background-color: var(--main-color) !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+  color: white !important;
+  background-color: var(--main-color) !important;
+}

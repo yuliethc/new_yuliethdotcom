@@ -11,7 +11,7 @@ import { Col, Row } from "react-bootstrap";
 import MyCV from "./files/CV2022.pdf";
 import WhiteCard from "./components/WhiteCard";
 import PortfolioWhiteCard from "./components/PortfolioWhiteCard";
-import PortfolioContent from "../Components/PortfolioContent.json";
+// import PortfolioContent from "../Components/PortfolioContent.json";
 
 const PrincipalContainer = styled.div`
   display: flex;
@@ -192,78 +192,126 @@ const Principal = () => {
                   <ul class="nav nav-pills" id="myTab" role="tablist">
                     <li class="nav-item">
                       <a
-                        class="nav-link active"
-                        id="home-tab"
+                        class="nav-link"
+                        id="all-tab"
                         data-toggle="tab"
-                        href="#home"
+                        href="#all"
                         role="tab"
-                        aria-controls="home"
+                        aria-controls="all"
+                        aria-selected="false"
+                      >
+                        All
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        id="development-tab"
+                        data-toggle="tab"
+                        href="#development"
+                        role="tab"
+                        aria-controls="development"
                         aria-selected="true"
                       >
-                        Home
+                        Development
                       </a>
                     </li>
                     <li class="nav-item">
                       <a
                         class="nav-link"
-                        id="profile-tab"
+                        id="data-science-tab"
                         data-toggle="tab"
-                        href="#profile"
+                        href="#data-science"
                         role="tab"
-                        aria-controls="profile"
+                        aria-controls="data-science"
                         aria-selected="false"
                       >
-                        Profile
+                        Data Science
                       </a>
                     </li>
+                    
                     <li class="nav-item">
                       <a
                         class="nav-link"
-                        id="contact-tab"
+                        id="certifications-tab"
                         data-toggle="tab"
-                        href="#contact"
+                        href="#certifications"
                         role="tab"
-                        aria-controls="contact"
+                        aria-controls="certifications"
                         aria-selected="false"
                       >
-                        Contact
+                        Certifications
+                      </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        id="others-tab"
+                        data-toggle="tab"
+                        href="#others"
+                        role="tab"
+                        aria-controls="others"
+                        aria-selected="false"
+                      >
+                        Others
                       </a>
                     </li>
                   </ul>
                   <div class="tab-content" id="myTabContent">
+                   
                     <div
-                      class="tab-pane fade show active"
-                      id="home"
+                      class="tab-pane fade"
+                      id="all"
                       role="tabpanel"
-                      aria-labelledby="home-tab"
+                      aria-labelledby="all-tab"
                     >
                       1
                     </div>
                     <div
-                      class="tab-pane fade d-flex flex-wrap justify-content-center align-items-center"
-                      id="profile"
+                      class="tab-pane fade show active"
+                      id="development"
                       role="tabpanel"
-                      aria-labelledby="profile-tab"
+                      aria-labelledby="development-tab"
                     >
-                      {PortfolioContent.map((project) =>
+                     in progress
+                     {/*  {PortfolioContent.map((project) =>
                         project.Type == "Development" ? (
                           <PortfolioWhiteCard
-                            Title={project.Name}
+                            Title={project.Title}
                             Description={project.Description}
                             Button="Details"
                           ></PortfolioWhiteCard>
                         ) : (
                           <div>No projects here</div>
                         )
-                      )}
+                      )} */}
+                    </div>
+                    
+                    <div
+                      class="tab-pane fade"
+                      id="data-science"
+                      role="tabpanel"
+                      aria-labelledby="data-science-tab"
+                    >
+                      3
                     </div>
                     <div
                       class="tab-pane fade"
-                      id="contact"
+                      id="certifications"
                       role="tabpanel"
-                      aria-labelledby="contact-tab"
+                      aria-labelledby="certifications-tab"
                     >
-                      3
+                      4
+                    </div>
+                    
+                    <div
+                      class="tab-pane fade"
+                      id="others"
+                      role="tabpanel"
+                      aria-labelledby="others-tab"
+                    >
+                      5
                     </div>
                   </div>
                 </PortfolioSection>

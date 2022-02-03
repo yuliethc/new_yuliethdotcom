@@ -10,6 +10,8 @@ import Photo from "./img/photo.png";
 import { Col, Row } from "react-bootstrap";
 import MyCV from "./files/CV2022.pdf";
 import WhiteCard from "./components/WhiteCard";
+import PortfolioWhiteCard from "./components/PortfolioWhiteCard";
+import PortfolioContent from "../Components/PortfolioContent.json";
 
 const PrincipalContainer = styled.div`
   display: flex;
@@ -73,6 +75,14 @@ const SkillsSection = styled.div`
   margin-top: 50px;
 `;
 const ServicesSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+`;
+const PortfolioSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -178,6 +188,85 @@ const Principal = () => {
                     ></WhiteCard>
                   </services>
                 </ServicesSection>
+                <PortfolioSection>
+                  <ul class="nav nav-pills" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        id="home-tab"
+                        data-toggle="tab"
+                        href="#home"
+                        role="tab"
+                        aria-controls="home"
+                        aria-selected="true"
+                      >
+                        Home
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        id="profile-tab"
+                        data-toggle="tab"
+                        href="#profile"
+                        role="tab"
+                        aria-controls="profile"
+                        aria-selected="false"
+                      >
+                        Profile
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        id="contact-tab"
+                        data-toggle="tab"
+                        href="#contact"
+                        role="tab"
+                        aria-controls="contact"
+                        aria-selected="false"
+                      >
+                        Contact
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="home"
+                      role="tabpanel"
+                      aria-labelledby="home-tab"
+                    >
+                      1
+                    </div>
+                    <div
+                      class="tab-pane fade d-flex flex-wrap justify-content-center align-items-center"
+                      id="profile"
+                      role="tabpanel"
+                      aria-labelledby="profile-tab"
+                    >
+                      {PortfolioContent.map((project) =>
+                        project.Type == "Development" ? (
+                          <PortfolioWhiteCard
+                            Title={project.Name}
+                            Description={project.Description}
+                            Button="Details"
+                          ></PortfolioWhiteCard>
+                        ) : (
+                          <div>No projects here</div>
+                        )
+                      )}
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="contact"
+                      role="tabpanel"
+                      aria-labelledby="contact-tab"
+                    >
+                      3
+                    </div>
+                  </div>
+                </PortfolioSection>
               </Central>
             </Col>
             <Col lg={2} className="p-0">

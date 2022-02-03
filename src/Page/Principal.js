@@ -7,11 +7,15 @@ import ImageHeader from "./img/fondototal1.png";
 import DecoImage from "./img/someImages.png";
 import DecoImage1 from "./img/someImages-1.png";
 import Photo from "./img/photo.png";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import MyCV from "./files/CV2022.pdf";
 import WhiteCard from "./components/WhiteCard";
 import PortfolioWhiteCard from "./components/PortfolioWhiteCard";
 // import PortfolioContent from "../Components/PortfolioContent.json";
+import ContactImage from "./img/contact.png";
+import LinkedinIcon from "./img/linkedin.png";
+import InstagramIcon from "./img/instagram.png";
+import GithubIcon from "./img/github.png";
 
 const PrincipalContainer = styled.div`
   display: flex;
@@ -58,6 +62,15 @@ const ImagenFondoDeco1 = styled.div`
   background-image: url(${DecoImage1});
   background-size: 100% 100%;
 `;
+const ImagenFooter = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 0px;
+  background-image: url(${ContactImage});
+  background-size: 100% 100%;
+`;
 
 const Central = styled.div`
   display: flex;
@@ -90,6 +103,13 @@ const PortfolioSection = styled.div`
   width: 100%;
   margin-top: 50px;
 `;
+const ContactSection = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+`;
 
 const Title = styled.span`
   text-align: center;
@@ -100,6 +120,17 @@ const Title = styled.span`
   font-weight: 500;
   line-height: 1.2;
 `;
+
+const renderTooltip = (props) => (
+  <Tooltip id="button-tooltip" {...props}>
+    Send Email
+  </Tooltip>
+);
+const renderTooltip1 = (props) => (
+  <Tooltip id="button-tooltip" {...props}>
+    Enter link
+  </Tooltip>
+);
 
 const Principal = () => {
   return (
@@ -229,7 +260,7 @@ const Principal = () => {
                         Data Science
                       </a>
                     </li>
-                    
+
                     <li class="nav-item">
                       <a
                         class="nav-link"
@@ -243,7 +274,7 @@ const Principal = () => {
                         Certifications
                       </a>
                     </li>
-                    
+
                     <li class="nav-item">
                       <a
                         class="nav-link"
@@ -259,7 +290,6 @@ const Principal = () => {
                     </li>
                   </ul>
                   <div class="tab-content" id="myTabContent">
-                   
                     <div
                       class="tab-pane fade"
                       id="all"
@@ -274,8 +304,8 @@ const Principal = () => {
                       role="tabpanel"
                       aria-labelledby="development-tab"
                     >
-                     in progress
-                     {/*  {PortfolioContent.map((project) =>
+                      in progress
+                      {/*  {PortfolioContent.map((project) =>
                         project.Type == "Development" ? (
                           <PortfolioWhiteCard
                             Title={project.Title}
@@ -287,7 +317,7 @@ const Principal = () => {
                         )
                       )} */}
                     </div>
-                    
+
                     <div
                       class="tab-pane fade"
                       id="data-science"
@@ -304,7 +334,7 @@ const Principal = () => {
                     >
                       4
                     </div>
-                    
+
                     <div
                       class="tab-pane fade"
                       id="others"
@@ -317,19 +347,81 @@ const Principal = () => {
                 </PortfolioSection>
               </Central>
             </Col>
-            <Col lg={2} className="p-0">
+            <Col lg="2" className="p-0">
               <ImagenFondoDeco />
             </Col>
-          </Row>
+            <Row className="m-0 p-0 w-100 d-flex" style={{ height: "200px" }}>
+              <Col lg="4">
+                <Title>Contact me</Title>
+              </Col>
 
-          {/* <Row className="m-0 p-0 h-100 w-100">
-            <Col lg={2} className="p-0">
-              <ImagenFondoDeco1 />
-            </Col>
-            <Col lg={8} className="p-0">
-              
-            </Col>
-          </Row> */}
+              <Col lg="8" className="m-0 p-0">
+                <ImagenFooter>
+                  <div className="d-flex justify-content-around align-items-end flex-wrap h-100 w-100 mb-5">
+                    <OverlayTrigger
+                      placement="top"
+                      delay={{ show: 250, hide: 400 }}
+                      overlay={renderTooltip}
+                    >
+                      <a
+                        className="p-0 m-0 text-white h4 text-decoration-none"
+                        href="mailto: contact@yulieth.com"
+                      >
+                        contact@yulieth.com
+                      </a>
+                    </OverlayTrigger>
+                    <div>
+                      <OverlayTrigger
+                        placement="top"
+                        delay={{ show: 250, hide: 400 }}
+                        overlay={renderTooltip1}
+                      >
+                        <a href="https://github.com/yuliethc" target="_blank">
+                          <img
+                            src={GithubIcon}
+                            alt="Github link"
+                            style={{ height: "50px" }}
+                          />
+                        </a>
+                      </OverlayTrigger>
+                      <OverlayTrigger
+                        placement="top"
+                        delay={{ show: 250, hide: 400 }}
+                        overlay={renderTooltip1}
+                      >
+                        <a
+                          href="https://www.linkedin.com/in/yulieth/"
+                          target="_blank"
+                        >
+                          <img
+                            src={LinkedinIcon}
+                            alt="Linkedin link"
+                            style={{ height: "50px" }}
+                          />
+                        </a>
+                      </OverlayTrigger>
+                      <OverlayTrigger
+                        placement="top"
+                        delay={{ show: 250, hide: 400 }}
+                        overlay={renderTooltip1}
+                      >
+                        <a
+                          href="https://instagram.com/forever.turista"
+                          target="_blank"
+                        >
+                          <img
+                            src={InstagramIcon}
+                            alt="Instagram link"
+                            style={{ height: "50px" }}
+                          />
+                        </a>
+                      </OverlayTrigger>
+                    </div>
+                  </div>
+                </ImagenFooter>
+              </Col>
+            </Row>
+          </Row>
         </div>
       </HomeContainer>
     </PrincipalContainer>

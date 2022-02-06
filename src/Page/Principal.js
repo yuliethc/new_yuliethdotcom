@@ -376,7 +376,8 @@ const Principal = () => {
                         delay={{ show: 250, hide: 400 }}
                         overlay={renderTooltip1}
                       >
-                        <a href="https://github.com/yuliethc" target="_blank">
+                        <a href="https://github.com/yuliethc" target="_blank"
+                        rel="noopener">
                           <img
                             src={GithubIcon}
                             alt="Github link"
@@ -392,6 +393,7 @@ const Principal = () => {
                         <a
                           href="https://www.linkedin.com/in/yulieth/"
                           target="_blank"
+                          rel="noopener"
                         >
                           <img
                             src={LinkedinIcon}
@@ -408,6 +410,7 @@ const Principal = () => {
                         <a
                           href="https://instagram.com/forever.turista"
                           target="_blank"
+                          rel="noopener"
                         >
                           <img
                             src={InstagramIcon}

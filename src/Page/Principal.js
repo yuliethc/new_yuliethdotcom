@@ -141,9 +141,14 @@ const Principal = () => {
           className="h-100 w-100 m-0 p-0 overflow-auto"
           style={{ position: "relative" }}
         >
-          <PrincipalImage alt="Pink Background" src={ImageHeader}></PrincipalImage>
-          <Row className="h-100 m-0 p-0 text-light align-items-center justify-content-center align-content-lg-center position-relative align-content-sm-start">
-            <Col className="m-0 p-0 d-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center align-items-sm-start justify-content-sm-center">
+          <PrincipalImage
+            alt="Pink Background"
+            src={ImageHeader}
+          ></PrincipalImage>
+          <Row className=" position-relative h-100 m-0 p-0 text-light align-items-center justify-content-center">
+            <Col
+              className="m-0 p-0 d-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center align-items-sm-start justify-content-sm-center align-items-sm-center d-sm-none d-none d-md-block"
+            >
               <CentralPhoto src={Photo} alt="Face Photo" />
             </Col>
 

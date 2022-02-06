@@ -147,7 +147,7 @@ const Principal = () => {
               <CentralPhoto src={Photo} alt="Face Photo" />
             </Col>
 
-            <Col className="m-0 p-0 d-flex flex-column align-items-start justify-content-center">
+            <Col className="m-1 p-1 d-flex flex-column align-items-center align-items-start justify-content-center align-items-sm-center align-items-lg-start align-items-md-start">
               <h6>Hello I'm</h6>
               <h1>Yulieth Lubo</h1>
               <h5>Software Developer & Entry-Level Data Scientist</h5>

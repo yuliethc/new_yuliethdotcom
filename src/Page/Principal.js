@@ -205,22 +205,17 @@ const Principal = () => {
                       Title="Web Applications"
                       Description="Developing fully functional web
                     apllications with interactive elements
-                    and API integrations. 
-                    "
+                    and API integrations."
                     ></WhiteCard>
                     <WhiteCard
                       Title="Responsive Web Design"
-                      Description="Developing fully functional web
-                      apllications with interactive elements
-                      and API integrations. 
-                    "
+                      Description="These will show on 
+                      different devices (smartphones, 
+                      tablets, desktops, etc.)."
                     ></WhiteCard>
                     <WhiteCard
-                      Title="Web Accessibility"
-                      Description="I create low and high fidelity
-                      wireframing and user story mapping, 
-                     flows, iterative testing by prototyping.
-                    "
+                      Title="Data Analysis"
+                      Description="Inspecting, cleansing, transforming, and modelling data with the goal of discovering useful information and informing the conclusions."
                     ></WhiteCard>
                   </services>
                 </ServicesSection>

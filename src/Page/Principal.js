@@ -355,14 +355,14 @@ const Principal = () => {
             <Col lg="2" className="p-0">
               <ImagenFondoDeco />
             </Col>
-            <Row className="m-0 p-0 w-100 d-flex" style={{ height: "200px" }}>
-              <Col lg="4">
+            <Row className="m-0 p-0 w-100 d-flex" style={{ height: "450px" }}>
+              <Col lg="4" className="d-flex align-items-end justify-content-center">
                 <Title>Contact me</Title>
               </Col>
 
               <Col lg="8" className="m-0 p-0">
                 <ImagenFooter>
-                  <div className="d-flex justify-content-around align-items-end flex-wrap h-100 w-100 mb-5">
+                  <div className="d-flex justify-content-evenly align-items-end flex-wrap h-100 w-100 mb-4">
                     <OverlayTrigger
                       placement="top"
                       delay={{ show: 250, hide: 400 }}

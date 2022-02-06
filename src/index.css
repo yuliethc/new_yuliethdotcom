@@ -1,20 +1,28 @@
 :root {
-  --main-color: #EA2458;
-  --secundary-color: #F55B81;
-  --terciary-color: #FAE4EB;
-  --darkest-color: #484E51;
-  --gray-color: #91878A;
-  --ligth-gray-color: #AFA8AA;
-  --buttons-color: #E20040;
+  --main-color: #ea2458;
+  --secundary-color: #f55b81;
+  --terciary-color: #fae4eb;
+  --darkest-color: #484e51;
+  --gray-color: #91878a;
+  --ligth-gray-color: #afa8aa;
+  --buttons-color: #e20040;
 }
 
 body {
-   margin: 0;
+  margin: 0;
   font-family: "Roboto";
 }
 
 .navbar {
-  background: -moz-linear-gradient(left, #db2559 0%, #db2559 14%, #db2559 22%, #db2559 60%, #ff2453 95%, #ff2453 100%) !important;
+  background: -moz-linear-gradient(
+    left,
+    #db2559 0%,
+    #db2559 14%,
+    #db2559 22%,
+    #db2559 60%,
+    #ff2453 95%,
+    #ff2453 100%
+  ) !important;
   display: flex;
   justify-content: space-between !important;
   width: 100%;
@@ -28,34 +36,39 @@ body {
   padding-right: 5rem;
 }
 
-.navbar-dark .navbar-nav a:hover{ 
-  color: var(--darkest-color) !important;
+.navbar-dark .navbar-nav a:hover {
+  opacity: 0.5 !important;
 }
-.navbar-dark .navbar-nav a:focus{ 
+.navbar-dark .navbar-nav a:focus {
+  opacity: 0.5 !important;
+}
+
+.navbar-dark .navbar-brand:hover {
+  opacity: 0.5 !important;
+}
+
+.nav-pills .nav-link {
   color: var(--darkest-color) !important;
 }
 
-.navbar-dark .navbar-brand:hover{
-  color: var(--darkest-color) !important;
+.nav-pills .nav-link:active {
+  color: white !important;
+  background-color: var(--main-color) !important;
+}
+.nav-pills .nav-link:focus {
+  color: white !important;
+  background-color: var(--main-color) !important;
+}
+.nav-pills .nav-link:hover {
+  color: white !important;
+  background-color: var(--main-color) !important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: white !important;
+  background-color: var(--main-color) !important;
 }
 
-.nav-pills .nav-link{
+.navbar-collapse .navbar-nav .nav-link {
   color: var(--darkest-color) !important;
-}
-
-.nav-pills .nav-link:active{
-  color: white !important;
-  background-color: var(--main-color) !important;
-}
-.nav-pills .nav-link:focus{
-  color: white !important;
-  background-color: var(--main-color) !important;
-}
-.nav-pills .nav-link:hover{
-  color: white !important;
-  background-color: var(--main-color) !important;
-}
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
-  color: white !important;
-  background-color: var(--main-color) !important;
 }

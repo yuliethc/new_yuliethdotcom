@@ -141,10 +141,10 @@ const Principal = () => {
           className="h-100 w-100 m-0 p-0 overflow-auto"
           style={{ position: "relative" }}
         >
-          <PrincipalImage src={ImageHeader}></PrincipalImage>
+          <PrincipalImage alt="Pink Background" src={ImageHeader}></PrincipalImage>
           <Row className="h-100 m-0 p-0 text-light align-items-center justify-content-center align-content-lg-center position-relative align-content-sm-start">
             <Col className="m-0 p-0 d-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center align-items-sm-start justify-content-sm-center">
-              <CentralPhoto src={Photo} alt="" />
+              <CentralPhoto src={Photo} alt="Face Photo" />
             </Col>
 
             <Col className="m-0 p-0 d-flex flex-column align-items-start justify-content-center">

@@ -10,7 +10,7 @@ import Photo from "./img/photo.png";
 import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import MyCV from "./files/CV2022.pdf";
 import WhiteCard from "./components/WhiteCard";
-import PortfolioWhiteCard from "./components/PortfolioWhiteCard";
+// import PortfolioWhiteCard from "./components/PortfolioWhiteCard";
 // import PortfolioContent from "../Components/PortfolioContent.json";
 import ContactImage from "./img/contact.png";
 import LinkedinIcon from "./img/linkedin.png";
@@ -99,13 +99,6 @@ const PortfolioSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  margin-top: 50px;
-`;
-const ContactSection = styled.div`
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
   margin-top: 50px;
@@ -377,7 +370,7 @@ const Principal = () => {
                         overlay={renderTooltip1}
                       >
                         <a href="https://github.com/yuliethc" target="_blank"
-                        rel="noopener">
+                        rel="noreferrer">
                           <img
                             src={GithubIcon}
                             alt="Github link"
@@ -393,7 +386,7 @@ const Principal = () => {
                         <a
                           href="https://www.linkedin.com/in/yulieth/"
                           target="_blank"
-                          rel="noopener"
+                          rel="noreferrer"
                         >
                           <img
                             src={LinkedinIcon}
@@ -410,7 +403,7 @@ const Principal = () => {
                         <a
                           href="https://instagram.com/forever.turista"
                           target="_blank"
-                          rel="noopener"
+                          rel="noreferrer"
                         >
                           <img
                             src={InstagramIcon}

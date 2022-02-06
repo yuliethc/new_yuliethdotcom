@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import styled from "styled-components";
 import ImageHeader from "../img/fondototal1.png";
 
 class Header extends Component {

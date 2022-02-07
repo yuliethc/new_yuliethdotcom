@@ -176,7 +176,7 @@ const Principal = () => {
                 <SkillsSection>
                   <Title>Skills</Title>
                   <skills className="d-flex flex-wrap justify-content-center">
-                    <StyledWhiteButton Title="SQL & MySQL"></StyledWhiteButton>
+                    <StyledWhiteButton Title="SQL"></StyledWhiteButton>
                     <StyledWhiteButton Title="JavaScript & ReactJS"></StyledWhiteButton>
                     <StyledWhiteButton Title="HTML & CSS"></StyledWhiteButton>
                     <StyledWhiteButton Title="Python"></StyledWhiteButton>

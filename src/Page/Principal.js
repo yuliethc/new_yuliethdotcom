@@ -192,7 +192,7 @@ const Principal = () => {
                   </skills>
                 </SkillsSection>
                 <ServicesSection>
-                  <Title>Services</Title>
+                  {/* <Title>Services</Title> */}
                   <services className="d-flex flex-wrap justify-content-center">
                     <WhiteCard
                       Title="Web Applications"
@@ -213,6 +213,7 @@ const Principal = () => {
                   </services>
                 </ServicesSection>
                 <PortfolioSection>
+                  <Title>Portfolio</Title>
                   <ul class="nav nav-pills" id="myTab" role="tablist">
                     <li class="nav-item">
                       <a

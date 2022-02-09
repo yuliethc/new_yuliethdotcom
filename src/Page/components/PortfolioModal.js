@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Button, Modal, Carousel } from "react-bootstrap";
 import "../css/Portfolio.css";
 import StyledWhiteButton from "../components/StyledWhiteButton";
+import StyledButton from "../components/StyledButton";
 
 const ModalButton = styled.button`
   background-color: var(--buttons-color);
@@ -30,6 +31,15 @@ const ModalButton = styled.button`
     cursor: pointer;
     opacity: 1;
   }
+`;
+const Title = styled.span`
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  color: var(--darkest-color);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
 `;
 
 const PortfolioModal = (props) => {
@@ -64,14 +74,18 @@ const PortfolioModal = (props) => {
         <Modal.Body>
           <h4>{props.Title}</h4>
 
-          {/* <img src={require("../img/PortfolioImages/project1/first.png")} alt="" /> */}
-          <Carousel variant="dark">
+          <Carousel variant="dark" className="mb-3 mt-3">
             {props.ProjectSlides?.map((slide) =>
               slide ? (
-                <Carousel.Item >
+                <Carousel.Item>
                   <img
                     className="d-block"
-                    style={{ maxHeight: "350px", maxWidth: "700px", marginLeft: "auto", marginRight: "auto" }}
+                    style={{
+                      maxHeight: "300px",
+                      maxWidth: "600px",
+                      marginLeft: "auto",
+                      marginRight: "auto",
+                    }}
                     src={slide.image}
                     alt={slide.alt}
                   />
@@ -81,9 +95,11 @@ const PortfolioModal = (props) => {
               )
             )}
           </Carousel>
-
+          <Title>Description</Title>
           <p>{props.Description}</p>
-          <div className="d-flex justify-content-center align-items-start flex-wrap">
+
+          <Title>Tech used</Title>
+          <div className="d-flex justify-content-start align-items-start flex-wrap">
             {props.TechUsed?.map((tech) =>
               tech ? (
                 <StyledWhiteButton Title={tech}></StyledWhiteButton>
@@ -91,6 +107,9 @@ const PortfolioModal = (props) => {
                 <div>No tech here</div>
               )
             )}
+          </div>
+          <div className="mb-3 d-flex align-items-center justify-content-end">
+            <StyledButton Title="Visit Site"></StyledButton>
           </div>
         </Modal.Body>
       </Modal>

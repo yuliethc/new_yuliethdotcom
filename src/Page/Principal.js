@@ -311,6 +311,7 @@ const Principal = () => {
                             Button="Details"
                             ProjectSlides={project.ImageSlides}
                             TechUsed={project.TechUsed}
+                            ProjectURL={project.URL}
                           > </PortfolioWhiteCard>
                          
                         ) : (

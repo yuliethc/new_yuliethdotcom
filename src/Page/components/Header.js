@@ -19,19 +19,16 @@ class Header extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto pr-1">
-              <Nav.Link className="mr-1 text-light" href="/">
+              <Nav.Link className="mr-1 text-light" href="#home">
                 Home
               </Nav.Link>
-              <Nav.Link className="mr-1 text-light" href="/">
+              <Nav.Link className="mr-1 text-light" href="#about">
                 About
               </Nav.Link>
-              <Nav.Link className="mr-1 text-light" href="/">
-                Services
-              </Nav.Link>
-              <Nav.Link className="mr-1 text-light" href="/">
+              <Nav.Link className="mr-1 text-light" href="#portfolio">
                 Portfolio
               </Nav.Link>
-              <Nav.Link className="mr-0 text-light" href="/">
+              <Nav.Link className="mr-0 text-light" href="#contact">
                 Contact
               </Nav.Link>
             </Nav>

@@ -17,7 +17,6 @@ import LinkedinIcon from "./img/linkedin.png";
 import InstagramIcon from "./img/instagram.png";
 import GithubIcon from "./img/github.png";
 
-
 const PrincipalContainer = styled.div`
   display: flex;
   width: 100vw;
@@ -126,8 +125,6 @@ const renderTooltip1 = (props) => (
   </Tooltip>
 );
 
-
-
 const Principal = () => {
   return (
     <PrincipalContainer>
@@ -136,15 +133,14 @@ const Principal = () => {
         <div
           className="h-100 w-100 m-0 p-0 overflow-auto"
           style={{ position: "relative" }}
+          
         >
           <PrincipalImage
             alt="Pink Background"
             src={ImageHeader}
           ></PrincipalImage>
-          <Row className=" position-relative h-100 m-0 p-0 text-light align-items-center justify-content-center">
-            <Col
-              className="m-0 p-0 d-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center align-items-sm-start justify-content-sm-center align-items-sm-center d-sm-none d-none d-md-block"
-            >
+          <Row id="home" className=" position-relative h-100 m-0 p-0 text-light align-items-center justify-content-center">
+            <Col className="m-0 p-0 d-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center align-items-sm-start justify-content-sm-center align-items-sm-center d-sm-none d-none d-md-block">
               <CentralPhoto src={Photo} alt="Face Photo" />
             </Col>
 
@@ -152,7 +148,10 @@ const Principal = () => {
               <h6>Hello I'm</h6>
               <h1>Yulieth Lubo</h1>
               <h5>Software Developer & Entry-Level Data Scientist</h5>
-              <StyledWhiteButton Title="Contact me"></StyledWhiteButton>
+
+              <a href="#contact">
+                <StyledWhiteButton Title="Contact me"></StyledWhiteButton>
+              </a>
             </Col>
           </Row>
           <Row className="m-0 p-0 h-100 w-100">
@@ -161,16 +160,15 @@ const Principal = () => {
             </Col>
             <Col lg={8} className="p-0">
               <Central>
-                <aboutme className="d-flex flex-wrap justify-content-center">
+                <aboutme id="about" className="d-flex flex-wrap justify-content-center">
                   <Title>About me</Title>
                   <p class="text-center mb-4">
                     2 + years of experience, solid background in programming. An
                     insatiable curiosity and lifelong learning. Working to
                     become a full-time data scientist, passionate about database
                     management and data analysis, with good SQL experience to
-                    extract and manage data. Good oral, written
-                    communication and presentation skills by being a teacher for
-                    4+ years.
+                    extract and manage data. Good oral, written communication
+                    and presentation skills by being a teacher for 4+ years.
                   </p>
                   <a href={MyCV} download="CV_Yulieth_Lubo.pdf">
                     <StyledButton Title="Download CV"></StyledButton>
@@ -178,7 +176,7 @@ const Principal = () => {
                 </aboutme>
                 <SkillsSection>
                   <Title>Skills</Title>
-                  <skills className="d-flex flex-wrap justify-content-center">
+                  <skills id="skills" className="d-flex flex-wrap justify-content-center">
                     <StyledWhiteButton Title="SQL"></StyledWhiteButton>
                     <StyledWhiteButton Title="JavaScript & ReactJS"></StyledWhiteButton>
                     <StyledWhiteButton Title="HTML & CSS"></StyledWhiteButton>
@@ -215,7 +213,7 @@ const Principal = () => {
                     ></WhiteCard>
                   </services>
                 </ServicesSection>
-                <PortfolioSection>
+                <PortfolioSection id="portfolio">
                   <Title>Portfolio</Title>
                   <ul class="nav nav-pills" id="myTab" role="tablist">
                     <li class="nav-item">
@@ -303,10 +301,16 @@ const Principal = () => {
                             ProjectSlides={project.ImageSlides}
                             TechUsed={project.TechUsed}
                             ProjectURL={project.URL}
-                          > </PortfolioWhiteCard>
-                         
+                          >
+                            {" "}
+                          </PortfolioWhiteCard>
                         ) : (
-                          <div style={{ minHeight: "300px" }}>No projects here</div>
+                          <div
+                            className="d-flex justify-content-center align-items-center"
+                            style={{ minHeight: "300px" }}
+                          >
+                            No projects here
+                          </div>
                         )
                       )}
                     </div>
@@ -317,8 +321,7 @@ const Principal = () => {
                       aria-labelledby="development-tab"
                       style={{ minHeight: "300px" }}
                     >
-                     
-                       {PortfolioContent.map((project) =>
+                      {PortfolioContent.map((project) =>
                         project.Category === "Development" ? (
                           <PortfolioWhiteCard
                             Title={project.Title}
@@ -327,10 +330,16 @@ const Principal = () => {
                             ProjectSlides={project.ImageSlides}
                             TechUsed={project.TechUsed}
                             ProjectURL={project.URL}
-                          > </PortfolioWhiteCard>
-                         
+                          >
+                            {" "}
+                          </PortfolioWhiteCard>
                         ) : (
-                          <div style={{ minHeight: "300px" }}>No projects here</div>
+                          <div
+                            className="d-flex justify-content-center align-items-center"
+                            style={{ minHeight: "300px" }}
+                          >
+                            No projects here
+                          </div>
                         )
                       )}
                     </div>
@@ -342,7 +351,7 @@ const Principal = () => {
                       aria-labelledby="data-science-tab"
                       style={{ minHeight: "300px" }}
                     >
-                       {PortfolioContent.map((project) =>
+                      {PortfolioContent.map((project) =>
                         project.Category === "Data Science" ? (
                           <PortfolioWhiteCard
                             Title={project.Title}
@@ -351,10 +360,16 @@ const Principal = () => {
                             ProjectSlides={project.ImageSlides}
                             TechUsed={project.TechUsed}
                             ProjectURL={project.URL}
-                          > </PortfolioWhiteCard>
-                         
+                          >
+                            {" "}
+                          </PortfolioWhiteCard>
                         ) : (
-                          <div style={{ minHeight: "300px" }}>No projects here</div>
+                          <div
+                            className="d-flex justify-content-center align-items-center"
+                            style={{ minHeight: "300px" }}
+                          >
+                            No projects here
+                          </div>
                         )
                       )}
                     </div>
@@ -365,7 +380,7 @@ const Principal = () => {
                       aria-labelledby="certifications-tab"
                       style={{ minHeight: "300px" }}
                     >
-                       {PortfolioContent.map((project) =>
+                      {PortfolioContent.map((project) =>
                         project.Category === "Certifications" ? (
                           <PortfolioWhiteCard
                             Title={project.Title}
@@ -374,10 +389,16 @@ const Principal = () => {
                             ProjectSlides={project.ImageSlides}
                             TechUsed={project.TechUsed}
                             ProjectURL={project.URL}
-                          > </PortfolioWhiteCard>
-                         
+                          >
+                            {" "}
+                          </PortfolioWhiteCard>
                         ) : (
-                          <div style={{ minHeight: "300px" }}>No projects here</div>
+                          <div
+                            className="d-flex justify-content-center align-items-center"
+                            style={{ minHeight: "300px" }}
+                          >
+                            No projects here
+                          </div>
                         )
                       )}
                     </div>
@@ -389,7 +410,7 @@ const Principal = () => {
                       aria-labelledby="others-tab"
                       style={{ minHeight: "300px" }}
                     >
-                       {PortfolioContent.map((project) =>
+                      {PortfolioContent.map((project) =>
                         project.Category === "Others" ? (
                           <PortfolioWhiteCard
                             Title={project.Title}
@@ -398,10 +419,16 @@ const Principal = () => {
                             ProjectSlides={project.ImageSlides}
                             TechUsed={project.TechUsed}
                             ProjectURL={project.URL}
-                          > </PortfolioWhiteCard>
-                         
+                          >
+                            {" "}
+                          </PortfolioWhiteCard>
                         ) : (
-                          <div style={{ minHeight: "300px" }}>No projects here</div>
+                          <div
+                            className="d-flex justify-content-center align-items-center"
+                            style={{ minHeight: "300px" }}
+                          >
+                            No projects here
+                          </div>
                         )
                       )}
                     </div>
@@ -412,8 +439,15 @@ const Principal = () => {
             <Col lg="2" className="p-0">
               <ImagenFondoDeco />
             </Col>
-            <Row className="m-0 p-0 w-100 d-flex" style={{ height: "450px" }}>
-              <Col lg="4" className="d-flex align-items-end justify-content-center">
+            <Row
+              className="m-0 p-0 w-100 d-flex"
+              style={{ height: "450px" }}
+              id="contact"
+            >
+              <Col
+                lg="4"
+                className="d-flex align-items-end justify-content-center"
+              >
                 <Title>Contact me</Title>
               </Col>
 
@@ -438,8 +472,11 @@ const Principal = () => {
                         delay={{ show: 250, hide: 400 }}
                         overlay={renderTooltip1}
                       >
-                        <a href="https://github.com/yuliethc" target="_blank"
-                        rel="noreferrer">
+                        <a
+                          href="https://github.com/yuliethc"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <img
                             src={GithubIcon}
                             alt="Github link"

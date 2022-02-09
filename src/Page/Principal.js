@@ -292,17 +292,32 @@ const Principal = () => {
                       id="all"
                       role="tabpanel"
                       aria-labelledby="all-tab"
+                      style={{ minHeight: "300px" }}
                     >
-                      1
+                      {PortfolioContent.map((project) =>
+                        project ? (
+                          <PortfolioWhiteCard
+                            Title={project.Title}
+                            Description={project.Description}
+                            Button="Details"
+                            ProjectSlides={project.ImageSlides}
+                            TechUsed={project.TechUsed}
+                            ProjectURL={project.URL}
+                          > </PortfolioWhiteCard>
+                         
+                        ) : (
+                          <div style={{ minHeight: "300px" }}>No projects here</div>
+                        )
+                      )}
                     </div>
                     <div
                       class="tab-pane fade show active"
                       id="development"
                       role="tabpanel"
                       aria-labelledby="development-tab"
+                      style={{ minHeight: "300px" }}
                     >
                      
-                      In progress...
                        {PortfolioContent.map((project) =>
                         project.Category === "Development" ? (
                           <PortfolioWhiteCard
@@ -315,7 +330,7 @@ const Principal = () => {
                           > </PortfolioWhiteCard>
                          
                         ) : (
-                          <div>No projects here</div>
+                          <div style={{ minHeight: "300px" }}>No projects here</div>
                         )
                       )}
                     </div>
@@ -325,16 +340,46 @@ const Principal = () => {
                       id="data-science"
                       role="tabpanel"
                       aria-labelledby="data-science-tab"
+                      style={{ minHeight: "300px" }}
                     >
-                      3
+                       {PortfolioContent.map((project) =>
+                        project.Category === "Data Science" ? (
+                          <PortfolioWhiteCard
+                            Title={project.Title}
+                            Description={project.Description}
+                            Button="Details"
+                            ProjectSlides={project.ImageSlides}
+                            TechUsed={project.TechUsed}
+                            ProjectURL={project.URL}
+                          > </PortfolioWhiteCard>
+                         
+                        ) : (
+                          <div style={{ minHeight: "300px" }}>No projects here</div>
+                        )
+                      )}
                     </div>
                     <div
                       class="tab-pane fade"
                       id="certifications"
                       role="tabpanel"
                       aria-labelledby="certifications-tab"
+                      style={{ minHeight: "300px" }}
                     >
-                      4
+                       {PortfolioContent.map((project) =>
+                        project.Category === "Certifications" ? (
+                          <PortfolioWhiteCard
+                            Title={project.Title}
+                            Description={project.Description}
+                            Button="Details"
+                            ProjectSlides={project.ImageSlides}
+                            TechUsed={project.TechUsed}
+                            ProjectURL={project.URL}
+                          > </PortfolioWhiteCard>
+                         
+                        ) : (
+                          <div style={{ minHeight: "300px" }}>No projects here</div>
+                        )
+                      )}
                     </div>
 
                     <div
@@ -342,8 +387,23 @@ const Principal = () => {
                       id="others"
                       role="tabpanel"
                       aria-labelledby="others-tab"
+                      style={{ minHeight: "300px" }}
                     >
-                      5
+                       {PortfolioContent.map((project) =>
+                        project.Category === "Others" ? (
+                          <PortfolioWhiteCard
+                            Title={project.Title}
+                            Description={project.Description}
+                            Button="Details"
+                            ProjectSlides={project.ImageSlides}
+                            TechUsed={project.TechUsed}
+                            ProjectURL={project.URL}
+                          > </PortfolioWhiteCard>
+                         
+                        ) : (
+                          <div style={{ minHeight: "300px" }}>No projects here</div>
+                        )
+                      )}
                     </div>
                   </div>
                 </PortfolioSection>

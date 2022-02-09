@@ -109,7 +109,9 @@ const PortfolioModal = (props) => {
             )}
           </div>
           <div className="mb-3 d-flex align-items-center justify-content-end">
-            <StyledButton Title="Visit Site"></StyledButton>
+            <a href={props.ProjectURL} target="_blank" rel="noreferrer">
+              <StyledButton Title="Visit Site"></StyledButton>
+            </a>
           </div>
         </Modal.Body>
       </Modal>

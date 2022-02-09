@@ -4,7 +4,7 @@
     "Title": "Contatrib ERP - Mi Factura Perú",
     "Subtitle": "A web based ERP",
     "Description": "A web-based ERP system integrated to an electronic invoicing system.",
-    "Thumbnail": "./img/PortfolioImages/devProject1.png",
+    "Thumbnail": "/PortfolioImages/devProject1.png",
     "URL": "https://app.mifacturaperu.com/",
     "TechUsed": [
       "React",

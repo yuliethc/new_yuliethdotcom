@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { Button, Modal, Carousel } from "react-bootstrap";
 import "../css/Portfolio.css";
+import StyledWhiteButton from "../components/StyledWhiteButton";
 
 const ModalButton = styled.button`
   background-color: var(--buttons-color);
@@ -64,12 +65,13 @@ const PortfolioModal = (props) => {
           <h4>{props.Title}</h4>
 
           {/* <img src={require("../img/PortfolioImages/project1/first.png")} alt="" /> */}
-          <Carousel>
+          <Carousel variant="dark">
             {props.ProjectSlides?.map((slide) =>
               slide ? (
-                <Carousel.Item>
+                <Carousel.Item >
                   <img
-                    className="d-block w-100"
+                    className="d-block"
+                    style={{ maxHeight: "350px", maxWidth: "700px", marginLeft: "auto", marginRight: "auto" }}
                     src={slide.image}
                     alt={slide.alt}
                   />
@@ -81,12 +83,16 @@ const PortfolioModal = (props) => {
           </Carousel>
 
           <p>{props.Description}</p>
+          <div className="d-flex justify-content-center align-items-start flex-wrap">
+            {props.TechUsed?.map((tech) =>
+              tech ? (
+                <StyledWhiteButton Title={tech}></StyledWhiteButton>
+              ) : (
+                <div>No tech here</div>
+              )
+            )}
+          </div>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-        </Modal.Footer>
       </Modal>
     </div>
   );

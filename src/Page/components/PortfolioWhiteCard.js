@@ -30,6 +30,7 @@ const WhiteCard = (props) => {
       Title={props.Title}
       Description={props.Description}
       ProjectSlides={props.ProjectSlides}
+      TechUsed={props.TechUsed}
       ></PortfolioModal>
     </div>
   );

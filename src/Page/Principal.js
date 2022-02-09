@@ -310,6 +310,7 @@ const Principal = () => {
                             Description={project.Description}
                             Button="Details"
                             ProjectSlides={project.ImageSlides}
+                            TechUsed={project.TechUsed}
                           > </PortfolioWhiteCard>
                          
                         ) : (

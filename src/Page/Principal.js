@@ -168,7 +168,7 @@ const Principal = () => {
                     insatiable curiosity and lifelong learning. Working to
                     become a full-time data scientist, passionate about database
                     management and data analysis, with good SQL experience to
-                    extract and manage data. Demonstrated oral, written
+                    extract and manage data. Good oral, written
                     communication and presentation skills by being a teacher for
                     4+ years.
                   </p>
@@ -304,11 +304,12 @@ const Principal = () => {
                      
                       In progress...
                        {PortfolioContent.map((project) =>
-                        project.Category == "Development" ? (
+                        project.Category === "Development" ? (
                           <PortfolioWhiteCard
                             Title={project.Title}
                             Description={project.Description}
                             Button="Details"
+                            ProjectSlides={project.ImageSlides}
                           > </PortfolioWhiteCard>
                          
                         ) : (

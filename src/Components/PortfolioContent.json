@@ -1,31 +1,43 @@
 [
-    {
-      "Id": 1,
-      "Title": "Contatrib ERP - Mi Factura Perú",
-      "Subtitle": "A web based ERP",
-      "Description":
-        "A web-based ERP system integrated to an electronic invoicing system.",
-      "Thumbnail": "./img/PortfolioImages/devProject1.png",
-      "URL": "https://app.mifacturaperu.com/",
-      "TechUsed": [
-        "React",
-        "NodeJs/Express",
-        "MySQL",
-        "Bootstrap",
-        "Adobe Photoshop",
-        "Adobe XD"
-      ],
-      "Category": "Development",
-      "Client": "Escobedo Medina Auditores Asociados",
-      "ImageSlides": [
-        "./img/PortfolioImages/project1/first.png",
-        "./img/PortfolioImages/project1/second.jpg",
-        "./img/PortfolioImages/project1/third.png",
-        "./img/PortfolioImages/project1/fourth.png",
-        "./img/PortfolioImages/project1/fift.png",
-        "./img/PortfolioImages/project1/contatrib.jpg"
-       
-      ],
-      "ProjectDate": "2019-2020"
-    }
+  {
+    "Id": 1,
+    "Title": "Contatrib ERP - Mi Factura Perú",
+    "Subtitle": "A web based ERP",
+    "Description": "A web-based ERP system integrated to an electronic invoicing system.",
+    "Thumbnail": "./img/PortfolioImages/devProject1.png",
+    "URL": "https://app.mifacturaperu.com/",
+    "TechUsed": [
+      "React",
+      "NodeJs/Express",
+      "MySQL",
+      "Bootstrap",
+      "Adobe Photoshop",
+      "Adobe XD"
+    ],
+    "Category": "Development",
+    "Client": "Escobedo Medina Auditores Asociados",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/project1/first.png",
+        "alt": "First"
+      },
+      {
+        "image": "/PortfolioImages/project1/second.jpg",
+        "alt": "Second"
+      },
+      {
+        "image": "/PortfolioImages/project1/third.png",
+        "alt": "Third"
+      },
+      {
+        "image": "/PortfolioImages/project1/fourth.png",
+        "alt": "Fourth"
+      },
+      {
+        "image": "/PortfolioImages/project1/fift.png",
+        "alt": "Fift"
+      }
+    ],
+    "ProjectDate": "2019-2020"
+  }
 ]

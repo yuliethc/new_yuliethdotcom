@@ -22,7 +22,7 @@
 .WhiteCardStyled:hover > p {
   color: white !important;
 }
-.WhiteCardStyled:hover > button {
+.WhiteCardStyled:hover > div > button {
   background-color: #fff;
   color: var(--main-color);
   border: 2px solid #fff;
@@ -38,7 +38,7 @@
 .WhiteCardStyled:focus > p {
   color: white !important;
 }
-.WhiteCardStyled:focus > button {
+.WhiteCardStyled:focus > div > button {
   background-color: #fff;
   color: var(--main-color);
   border: 2px solid #fff;

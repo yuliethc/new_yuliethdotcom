@@ -27,6 +27,9 @@ const WhiteCard = (props) => {
       <WhiteCardText>{props.Description}</WhiteCardText>
       <PortfolioModal
       ButtonText={props.Button}
+      Title={props.Title}
+      Description={props.Description}
+      ProjectSlides={props.ProjectSlides}
       ></PortfolioModal>
     </div>
   );

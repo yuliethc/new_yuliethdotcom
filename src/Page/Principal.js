@@ -10,12 +10,13 @@ import Photo from "./img/photo.png";
 import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import MyCV from "./files/CV2022.pdf";
 import WhiteCard from "./components/WhiteCard";
-// import PortfolioWhiteCard from "./components/PortfolioWhiteCard";
-// import PortfolioContent from "../Components/PortfolioContent.json";
+import PortfolioWhiteCard from "./components/PortfolioWhiteCard";
+import PortfolioContent from "../Components/PortfolioContent.json";
 import ContactImage from "./img/contact.png";
 import LinkedinIcon from "./img/linkedin.png";
 import InstagramIcon from "./img/instagram.png";
 import GithubIcon from "./img/github.png";
+
 
 const PrincipalContainer = styled.div`
   display: flex;
@@ -124,6 +125,8 @@ const renderTooltip1 = (props) => (
     Enter link
   </Tooltip>
 );
+
+
 
 const Principal = () => {
   return (
@@ -298,18 +301,20 @@ const Principal = () => {
                       role="tabpanel"
                       aria-labelledby="development-tab"
                     >
-                      in progress
-                      {/*  {PortfolioContent.map((project) =>
-                        project.Type == "Development" ? (
+                     
+                      In progress...
+                       {PortfolioContent.map((project) =>
+                        project.Category == "Development" ? (
                           <PortfolioWhiteCard
                             Title={project.Title}
                             Description={project.Description}
                             Button="Details"
-                          ></PortfolioWhiteCard>
+                          > </PortfolioWhiteCard>
+                         
                         ) : (
                           <div>No projects here</div>
                         )
-                      )} */}
+                      )}
                     </div>
 
                     <div

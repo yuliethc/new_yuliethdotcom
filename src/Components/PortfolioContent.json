@@ -262,7 +262,7 @@
   {
     "Id": 8,
     "Title": "Flick",
-    "Subtitle": null,
+    "Subtitle": "Design",
     "Description": "Movie social network and rating App design.",
     "Thumbnail": null,
     "URL": "https://www.behance.net/gallery/97457551/Flick-app",
@@ -288,7 +288,7 @@
     "Thumbnail": null,
     "URL": "https://yuliethlubo.blogspot.com/2015/10/time-what-is-time.html",
     "TechUsed": [
-      "Writing"
+      "Blogger"
     ],
     "Category": "Others",
     "Client": "My personal portfolio",
@@ -305,14 +305,15 @@
     "Id": 10,
     "Title": "My Pragmatic World",
     "Subtitle": "English Book",
-    "Description": "English basic level grammar, practice and vocabulary",
+    "Description": "English basic level grammar, practice and vocabulary.",
     "Thumbnail": null,
     "URL": "https://mypragmaticworld.wordpress.com/category/english-classes/",
     "TechUsed": [
-      "Writing"
+      "Microsoft Word",
+      "Canva"
     ],
     "Category": "Others",
-    "Client": "My personal portfolio",
+    "Client": "Teaching English",
     "ImageSlides": [
       {
         "image": "/PortfolioImages/project7/1.png",

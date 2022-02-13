@@ -25,10 +25,20 @@ const WhiteCardText = styled.p`
   text-align: center;
   margin-top: 10px;
 `;
+const WhiteCardMiniText = styled.p`
+  color: var(--darkest-color);
+  font-weight: italic;
+  font-size: xx-small;
+  text-align: center;
+  margin-top: 10px;
+`;
 
 const PortfolioWhiteCard = (props) => {
   return (
     <div className="WhiteCardStyled" onClick={props.onClick}>
+      <WhiteCardMiniText className="justify-self-end m-0 p-0">
+        {props.SubCategory}
+      </WhiteCardMiniText>
       <WhiteCardTitle>{props.Title}</WhiteCardTitle>
       <WhiteCardSubTitle>{props.Subtitle}</WhiteCardSubTitle>
       <WhiteCardText>{props.Description}</WhiteCardText>

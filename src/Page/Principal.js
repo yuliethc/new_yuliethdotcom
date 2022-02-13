@@ -313,6 +313,7 @@ const Principal = () => {
                               ProjectURL={project.URL}
                               ProjectClient={project.Client}
                               ProjectDate={project.ProjectDate}
+                              SubCategory={project.SubCategory}
                             >
                               {" "}
                             </PortfolioWhiteCard>
@@ -347,6 +348,7 @@ const Principal = () => {
                               ProjectURL={project.URL}
                               ProjectClient={project.Client}
                               ProjectDate={project.ProjectDate}
+                              SubCategory={project.SubCategory}
                             >
                               {" "}
                             </PortfolioWhiteCard>
@@ -382,6 +384,7 @@ const Principal = () => {
                               ProjectURL={project.URL}
                               ProjectClient={project.Client}
                               ProjectDate={project.ProjectDate}
+                              SubCategory={project.SubCategory}
                             >
                               {" "}
                             </PortfolioWhiteCard>
@@ -416,6 +419,7 @@ const Principal = () => {
                               ProjectURL={project.URL}
                               ProjectClient={project.Client}
                               ProjectDate={project.ProjectDate}
+                              SubCategory={project.SubCategory}
                             >
                               {" "}
                             </PortfolioWhiteCard>
@@ -451,6 +455,7 @@ const Principal = () => {
                               ProjectURL={project.URL}
                               ProjectClient={project.Client}
                               ProjectDate={project.ProjectDate}
+                              SubCategory={project.SubCategory}
                             >
                               {" "}
                             </PortfolioWhiteCard>

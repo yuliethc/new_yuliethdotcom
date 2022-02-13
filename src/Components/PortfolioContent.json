@@ -1,7 +1,7 @@
 [
   {
     "Id": 1,
-    "Title": "Contatrib ERP - Mi Factura Perú",
+    "Title": "Mi factura Perú",
     "Subtitle": "A web based ERP",
     "Description": "A web-based ERP system integrated to an electronic invoicing system.",
     "Thumbnail": "/PortfolioImages/devProject1.png",
@@ -39,5 +39,81 @@
       }
     ],
     "ProjectDate": "2019-2020"
+  },
+  {
+    "Id": 2,
+    "Title": "Mi Factura Perú",
+    "Subtitle": "Web system for invoice consultation",
+    "Description": "Developed the Frontend architecture of the Web of an electronic desktop invoicing system to give access to the clients of the companies affiliated to their invoices.",
+    "Thumbnail": "/PortfolioImages/devProject2.png",
+    "URL": "http://www.mifacturaperu.com/",
+    "TechUsed": [
+      "HTML", "CSS"
+    ],
+    "Category": "Development",
+    "Client": "Escobedo Medina Auditores Asociados",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/project2/landing.png",
+        "alt": "Landing"
+      },
+      {
+        "image": "/PortfolioImages/project2/consultation.png",
+        "alt": "Consultation"
+      },
+      {
+        "image": "/PortfolioImages/project2/contact.png",
+        "alt": "Contact"
+      }
+    ],
+    "ProjectDate": "2019"
+  },
+  {
+    "Id": 3,
+    "Title": "Mi Factura Perú",
+    "Subtitle": "System Desktop Administrator",
+    "Description": "I was maintaining and developing new characteristics to a desktop app, that handles configuration of administrative functions needed to generate electronic invoices in a multi-business system.",
+    "Thumbnail": "/PortfolioImages/devProject3.png",
+    "URL": "http://www.mifacturaperu.com/descargas",
+    "TechUsed": [
+      "VB .NET", "MySQL"
+    ],
+    "Category": "Development",
+    "Client": "Escobedo Medina Auditores Asociados",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/project3/first.png",
+        "alt": "First"
+      },
+      {
+        "image": "/PortfolioImages/project3/second.png",
+        "alt": "Second"
+      },
+      {
+        "image": "/PortfolioImages/project3/third.png",
+        "alt": "Third"
+      },
+      {
+        "image": "/PortfolioImages/project3/fourth.png",
+        "alt": "Fourth"
+      },
+      {
+        "image": "/PortfolioImages/project3/sixth.png",
+        "alt": "Sixth"
+      },
+      {
+        "image": "/PortfolioImages/project3/seventh.png",
+        "alt": "Seventh"
+      },
+      {
+        "image": "/PortfolioImages/project3/eigth.png",
+        "alt": "Eigth"
+      },
+      {
+        "image": "/PortfolioImages/project3/nineth.png",
+        "alt": "Nineth"
+      }
+    ],
+    "ProjectDate": "2019"
   }
 ]

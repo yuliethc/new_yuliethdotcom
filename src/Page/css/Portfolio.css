@@ -4,7 +4,7 @@
   padding: 8px 18px 8px 18px;
   border-radius: 6px;
   border: 2px solid #fff;
-  min-height: 200px;
+  min-height: 300px;
   max-width: 250px;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,9 @@
 .WhiteCardStyled:hover > p {
   color: white !important;
 }
+.WhiteCardStyled:hover > span {
+  color: white !important;
+}
 .WhiteCardStyled:hover > div > button {
   background-color: #fff;
   color: var(--main-color);
@@ -36,6 +39,9 @@
   background-color: var(--buttons-color) !important;
 }
 .WhiteCardStyled:focus > p {
+  color: white !important;
+}
+.WhiteCardStyled:focus > span {
   color: white !important;
 }
 .WhiteCardStyled:focus > div > button {

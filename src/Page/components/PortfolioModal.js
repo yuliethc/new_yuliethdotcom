@@ -96,7 +96,7 @@ const PortfolioModal = (props) => {
             )}
           </Carousel>
           <Title>Description</Title>
-          <p>{props.Description}</p>
+          <p>{props.Description + " " + "Develop for " + props.ProjectClient  + " in " + props.ProjectDate + "."}</p>
 
           <Title>Tech used</Title>
           <div className="d-flex justify-content-start align-items-start flex-wrap">

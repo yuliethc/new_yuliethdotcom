@@ -131,20 +131,22 @@ const Principal = () => {
       <HomeContainer>
         <Header style={{ backgroundColor: "red" }}> </Header>
         <div
-          className="h-100 w-100 m-0 p-0 overflow-auto"
+          className="h-100 w-100 m-0 overflow-auto p-0"
           style={{ position: "relative" }}
-          
         >
           <PrincipalImage
             alt="Pink Background"
             src={ImageHeader}
           ></PrincipalImage>
-          <Row id="home" className=" position-relative h-100 m-0 p-0 text-light align-items-center justify-content-center">
-            <Col className="m-0 p-0 d-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center align-items-sm-start justify-content-sm-center align-items-sm-center d-sm-none d-none d-md-block">
+          <Row
+            id="home"
+            className=" position-relative h-100 text-light align-items-center justify-content-center m-0 p-0"
+          >
+            <Col className="d-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center align-items-sm-start justify-content-sm-center align-items-sm-center d-sm-none d-none d-md-block m-0 p-0">
               <CentralPhoto src={Photo} alt="Face Photo" />
             </Col>
 
-            <Col className="m-1 p-1 d-flex flex-column align-items-center align-items-start justify-content-center align-items-sm-center align-items-lg-start align-items-md-start">
+            <Col className="d-flex flex-column align-items-center align-items-start justify-content-center align-items-sm-center align-items-lg-start align-items-md-start m-1 p-1">
               <h6>Hello I'm</h6>
               <h1>Yulieth Lubo</h1>
               <h5>Software Developer & Entry-Level Data Scientist</h5>
@@ -154,15 +156,18 @@ const Principal = () => {
               </a>
             </Col>
           </Row>
-          <Row className="m-0 p-0 h-100 w-100">
+          <Row className="h-100 w-100 m-0 p-0">
             <Col lg={2} className="p-0">
               <ImagenFondoDeco1 />
             </Col>
             <Col lg={8} className="p-0">
               <Central>
-                <aboutme id="about" className="d-flex flex-wrap justify-content-center">
+                <aboutme
+                  id="about"
+                  className="d-flex justify-content-center flex-wrap"
+                >
                   <Title>About me</Title>
-                  <p class="text-center mb-4">
+                  <p class="mb-4 text-center">
                     2 + years of experience, solid background in programming. An
                     insatiable curiosity and lifelong learning. Working to
                     become a full-time data scientist, passionate about database
@@ -176,7 +181,10 @@ const Principal = () => {
                 </aboutme>
                 <SkillsSection>
                   <Title>Skills</Title>
-                  <skills id="skills" className="d-flex flex-wrap justify-content-center">
+                  <skills
+                    id="skills"
+                    className="d-flex justify-content-center flex-wrap"
+                  >
                     <StyledWhiteButton Title="SQL"></StyledWhiteButton>
                     <StyledWhiteButton Title="JavaScript & ReactJS"></StyledWhiteButton>
                     <StyledWhiteButton Title="HTML & CSS"></StyledWhiteButton>
@@ -194,7 +202,7 @@ const Principal = () => {
                 </SkillsSection>
                 <ServicesSection>
                   {/* <Title>Services</Title> */}
-                  <services className="d-flex flex-wrap justify-content-center">
+                  <services className="d-flex justify-content-center flex-wrap">
                     <WhiteCard
                       Title="Web Applications"
                       Description="Developing fully functional web
@@ -292,27 +300,32 @@ const Principal = () => {
                       aria-labelledby="all-tab"
                       style={{ minHeight: "300px" }}
                     >
-                      {PortfolioContent.map((project) =>
-                        project ? (
-                          <PortfolioWhiteCard
-                            Title={project.Title}
-                            Description={project.Description}
-                            Button="Details"
-                            ProjectSlides={project.ImageSlides}
-                            TechUsed={project.TechUsed}
-                            ProjectURL={project.URL}
-                          >
-                            {" "}
-                          </PortfolioWhiteCard>
-                        ) : (
-                          <div
-                            className="d-flex justify-content-center align-items-center"
-                            style={{ minHeight: "300px" }}
-                          >
-                            No projects here
-                          </div>
-                        )
-                      )}
+                      <div className="d-flex justify-content-center align-items-center flex-wrap">
+                        {PortfolioContent.map((project) =>
+                          project ? (
+                            <PortfolioWhiteCard
+                              Title={project.Title}
+                              Subtitle={project.Subtitle}
+                              Description={project.Description}
+                              Button="Details"
+                              ProjectSlides={project.ImageSlides}
+                              TechUsed={project.TechUsed}
+                              ProjectURL={project.URL}
+                              ProjectClient={project.Client}
+                              ProjectDate={project.ProjectDate}
+                            >
+                              {" "}
+                            </PortfolioWhiteCard>
+                          ) : (
+                            <div
+                              className="d-flex justify-content-center align-items-center"
+                              style={{ minHeight: "300px" }}
+                            >
+                              No projects here
+                            </div>
+                          )
+                        )}
+                      </div>
                     </div>
                     <div
                       class="tab-pane fade show active"
@@ -321,27 +334,32 @@ const Principal = () => {
                       aria-labelledby="development-tab"
                       style={{ minHeight: "300px" }}
                     >
-                      {PortfolioContent.map((project) =>
-                        project.Category === "Development" ? (
-                          <PortfolioWhiteCard
-                            Title={project.Title}
-                            Description={project.Description}
-                            Button="Details"
-                            ProjectSlides={project.ImageSlides}
-                            TechUsed={project.TechUsed}
-                            ProjectURL={project.URL}
-                          >
-                            {" "}
-                          </PortfolioWhiteCard>
-                        ) : (
-                          <div
-                            className="d-flex justify-content-center align-items-center"
-                            style={{ minHeight: "300px" }}
-                          >
-                            No projects here
-                          </div>
-                        )
-                      )}
+                      <div className="d-flex justify-content-center align-items-center flex-wrap">
+                        {PortfolioContent.map((project) =>
+                          project.Category === "Development" ? (
+                            <PortfolioWhiteCard
+                              Title={project.Title}
+                              Subtitle={project.Subtitle}
+                              Description={project.Description}
+                              Button="Details"
+                              ProjectSlides={project.ImageSlides}
+                              TechUsed={project.TechUsed}
+                              ProjectURL={project.URL}
+                              ProjectClient={project.Client}
+                              ProjectDate={project.ProjectDate}
+                            >
+                              {" "}
+                            </PortfolioWhiteCard>
+                          ) : (
+                            <div
+                              className="d-flex justify-content-center align-items-center"
+                              style={{ minHeight: "300px" }}
+                            >
+                              No projects here
+                            </div>
+                          )
+                        )}
+                      </div>
                     </div>
 
                     <div
@@ -351,27 +369,32 @@ const Principal = () => {
                       aria-labelledby="data-science-tab"
                       style={{ minHeight: "300px" }}
                     >
-                      {PortfolioContent.map((project) =>
-                        project.Category === "Data Science" ? (
-                          <PortfolioWhiteCard
-                            Title={project.Title}
-                            Description={project.Description}
-                            Button="Details"
-                            ProjectSlides={project.ImageSlides}
-                            TechUsed={project.TechUsed}
-                            ProjectURL={project.URL}
-                          >
-                            {" "}
-                          </PortfolioWhiteCard>
-                        ) : (
-                          <div
-                            className="d-flex justify-content-center align-items-center"
-                            style={{ minHeight: "300px" }}
-                          >
-                            No projects here
-                          </div>
-                        )
-                      )}
+                      <div className="d-flex justify-content-center align-items-center flex-wrap">
+                        {PortfolioContent.map((project) =>
+                          project.Category === "Data Science" ? (
+                            <PortfolioWhiteCard
+                              Title={project.Title}
+                              Subtitle={project.Subtitle}
+                              Description={project.Description}
+                              Button="Details"
+                              ProjectSlides={project.ImageSlides}
+                              TechUsed={project.TechUsed}
+                              ProjectURL={project.URL}
+                              ProjectClient={project.Client}
+                              ProjectDate={project.ProjectDate}
+                            >
+                              {" "}
+                            </PortfolioWhiteCard>
+                          ) : (
+                            <div
+                              className="d-flex justify-content-center align-items-center"
+                              style={{ minHeight: "300px" }}
+                            >
+                              No projects here
+                            </div>
+                          )
+                        )}
+                      </div>
                     </div>
                     <div
                       class="tab-pane fade"
@@ -380,27 +403,32 @@ const Principal = () => {
                       aria-labelledby="certifications-tab"
                       style={{ minHeight: "300px" }}
                     >
-                      {PortfolioContent.map((project) =>
-                        project.Category === "Certifications" ? (
-                          <PortfolioWhiteCard
-                            Title={project.Title}
-                            Description={project.Description}
-                            Button="Details"
-                            ProjectSlides={project.ImageSlides}
-                            TechUsed={project.TechUsed}
-                            ProjectURL={project.URL}
-                          >
-                            {" "}
-                          </PortfolioWhiteCard>
-                        ) : (
-                          <div
-                            className="d-flex justify-content-center align-items-center"
-                            style={{ minHeight: "300px" }}
-                          >
-                            No projects here
-                          </div>
-                        )
-                      )}
+                      <div className="d-flex justify-content-center align-items-center flex-wrap">
+                        {PortfolioContent.map((project) =>
+                          project.Category === "Certifications" ? (
+                            <PortfolioWhiteCard
+                              Title={project.Title}
+                              Subtitle={project.Subtitle}
+                              Description={project.Description}
+                              Button="Details"
+                              ProjectSlides={project.ImageSlides}
+                              TechUsed={project.TechUsed}
+                              ProjectURL={project.URL}
+                              ProjectClient={project.Client}
+                              ProjectDate={project.ProjectDate}
+                            >
+                              {" "}
+                            </PortfolioWhiteCard>
+                          ) : (
+                            <div
+                              className="d-flex justify-content-center align-items-center"
+                              style={{ minHeight: "300px" }}
+                            >
+                              No projects here
+                            </div>
+                          )
+                        )}
+                      </div>
                     </div>
 
                     <div
@@ -410,27 +438,32 @@ const Principal = () => {
                       aria-labelledby="others-tab"
                       style={{ minHeight: "300px" }}
                     >
-                      {PortfolioContent.map((project) =>
-                        project.Category === "Others" ? (
-                          <PortfolioWhiteCard
-                            Title={project.Title}
-                            Description={project.Description}
-                            Button="Details"
-                            ProjectSlides={project.ImageSlides}
-                            TechUsed={project.TechUsed}
-                            ProjectURL={project.URL}
-                          >
-                            {" "}
-                          </PortfolioWhiteCard>
-                        ) : (
-                          <div
-                            className="d-flex justify-content-center align-items-center"
-                            style={{ minHeight: "300px" }}
-                          >
-                            No projects here
-                          </div>
-                        )
-                      )}
+                      <div className="d-flex justify-content-center align-items-center flex-wrap">
+                        {PortfolioContent.map((project) =>
+                          project.Category === "Others" ? (
+                            <PortfolioWhiteCard
+                              Title={project.Title}
+                              Subtitle={project.Subtitle}
+                              Description={project.Description}
+                              Button="Details"
+                              ProjectSlides={project.ImageSlides}
+                              TechUsed={project.TechUsed}
+                              ProjectURL={project.URL}
+                              ProjectClient={project.Client}
+                              ProjectDate={project.ProjectDate}
+                            >
+                              {" "}
+                            </PortfolioWhiteCard>
+                          ) : (
+                            <div
+                              className="d-flex justify-content-center align-items-center"
+                              style={{ minHeight: "300px" }}
+                            >
+                              No projects here
+                            </div>
+                          )
+                        )}
+                      </div>
                     </div>
                   </div>
                 </PortfolioSection>
@@ -440,7 +473,7 @@ const Principal = () => {
               <ImagenFondoDeco />
             </Col>
             <Row
-              className="m-0 p-0 w-100 d-flex"
+              className="w-100 d-flex m-0 p-0"
               style={{ height: "450px" }}
               id="contact"
             >
@@ -453,14 +486,14 @@ const Principal = () => {
 
               <Col lg="8" className="m-0 p-0">
                 <ImagenFooter>
-                  <div className="d-flex justify-content-evenly align-items-end flex-wrap h-100 w-100 mb-4">
+                  <div className="d-flex justify-content-evenly align-items-end h-100 w-100 mb-4 flex-wrap">
                     <OverlayTrigger
                       placement="top"
                       delay={{ show: 250, hide: 400 }}
                       overlay={renderTooltip}
                     >
                       <a
-                        className="p-0 m-0 text-white h4 text-decoration-none"
+                        className="h4 text-decoration-none m-0 p-0 text-white"
                         href="mailto: contact@yulieth.com"
                       >
                         contact@yulieth.com

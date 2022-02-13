@@ -336,31 +336,22 @@ const Principal = () => {
                       style={{ minHeight: "300px" }}
                     >
                       <div className="d-flex justify-content-center align-items-center flex-wrap">
-                        {PortfolioContent.map((project) =>
-                          project.Category === "Development" ? (
-                            <PortfolioWhiteCard
-                              Title={project.Title}
-                              Subtitle={project.Subtitle}
-                              Description={project.Description}
-                              Button="Details"
-                              ProjectSlides={project.ImageSlides}
-                              TechUsed={project.TechUsed}
-                              ProjectURL={project.URL}
-                              ProjectClient={project.Client}
-                              ProjectDate={project.ProjectDate}
-                              SubCategory={project.SubCategory}
-                            >
-                              {" "}
-                            </PortfolioWhiteCard>
-                          ) : (
-                            <div
-                              className="d-flex justify-content-center align-items-center"
-                              style={{ minHeight: "300px" }}
-                            >
-                              No projects here
-                            </div>
-                          )
-                        )}
+                        {PortfolioContent.filter(
+                          (project) => project.Category === "Development"
+                        ).map((project) => (
+                          <PortfolioWhiteCard
+                            Title={project.Title}
+                            Subtitle={project.Subtitle}
+                            Description={project.Description}
+                            Button="Details"
+                            ProjectSlides={project.ImageSlides}
+                            TechUsed={project.TechUsed}
+                            ProjectURL={project.URL}
+                            ProjectClient={project.Client}
+                            ProjectDate={project.ProjectDate}
+                            SubCategory={project.SubCategory}
+                          ></PortfolioWhiteCard>
+                        ))}
                       </div>
                     </div>
 
@@ -372,31 +363,22 @@ const Principal = () => {
                       style={{ minHeight: "300px" }}
                     >
                       <div className="d-flex justify-content-center align-items-center flex-wrap">
-                        {PortfolioContent.map((project) =>
-                          project.Category === "Data Science" ? (
-                            <PortfolioWhiteCard
-                              Title={project.Title}
-                              Subtitle={project.Subtitle}
-                              Description={project.Description}
-                              Button="Details"
-                              ProjectSlides={project.ImageSlides}
-                              TechUsed={project.TechUsed}
-                              ProjectURL={project.URL}
-                              ProjectClient={project.Client}
-                              ProjectDate={project.ProjectDate}
-                              SubCategory={project.SubCategory}
-                            >
-                              {" "}
-                            </PortfolioWhiteCard>
-                          ) : (
-                            <div
-                              className="d-flex justify-content-center align-items-center"
-                              style={{ minHeight: "300px" }}
-                            >
-                              No projects here
-                            </div>
-                          )
-                        )}
+                        {PortfolioContent.filter(
+                          (project) => project.Category === "Data Science"
+                        ).map((project) => (
+                          <PortfolioWhiteCard
+                            Title={project.Title}
+                            Subtitle={project.Subtitle}
+                            Description={project.Description}
+                            Button="Details"
+                            ProjectSlides={project.ImageSlides}
+                            TechUsed={project.TechUsed}
+                            ProjectURL={project.URL}
+                            ProjectClient={project.Client}
+                            ProjectDate={project.ProjectDate}
+                            SubCategory={project.SubCategory}
+                          ></PortfolioWhiteCard>
+                        ))}
                       </div>
                     </div>
                     <div
@@ -407,31 +389,22 @@ const Principal = () => {
                       style={{ minHeight: "300px" }}
                     >
                       <div className="d-flex justify-content-center align-items-center flex-wrap">
-                        {PortfolioContent.map((project) =>
-                          project.Category === "Certifications" ? (
-                            <PortfolioWhiteCard
-                              Title={project.Title}
-                              Subtitle={project.Subtitle}
-                              Description={project.Description}
-                              Button="Details"
-                              ProjectSlides={project.ImageSlides}
-                              TechUsed={project.TechUsed}
-                              ProjectURL={project.URL}
-                              ProjectClient={project.Client}
-                              ProjectDate={project.ProjectDate}
-                              SubCategory={project.SubCategory}
-                            >
-                              {" "}
-                            </PortfolioWhiteCard>
-                          ) : (
-                            <div
-                              className="d-flex justify-content-center align-items-center"
-                              style={{ minHeight: "300px" }}
-                            >
-                              No projects here
-                            </div>
-                          )
-                        )}
+                        {PortfolioContent.filter(
+                          (project) => project.Category === "Certifications"
+                        ).map((project) => (
+                          <PortfolioWhiteCard
+                            Title={project.Title}
+                            Subtitle={project.Subtitle}
+                            Description={project.Description}
+                            Button="Details"
+                            ProjectSlides={project.ImageSlides}
+                            TechUsed={project.TechUsed}
+                            ProjectURL={project.URL}
+                            ProjectClient={project.Client}
+                            ProjectDate={project.ProjectDate}
+                            SubCategory={project.SubCategory}
+                          ></PortfolioWhiteCard>
+                        ))}
                       </div>
                     </div>
 
@@ -443,31 +416,22 @@ const Principal = () => {
                       style={{ minHeight: "300px" }}
                     >
                       <div className="d-flex justify-content-center align-items-center flex-wrap">
-                        {PortfolioContent.map((project) =>
-                          project.Category === "Others" ? (
-                            <PortfolioWhiteCard
-                              Title={project.Title}
-                              Subtitle={project.Subtitle}
-                              Description={project.Description}
-                              Button="Details"
-                              ProjectSlides={project.ImageSlides}
-                              TechUsed={project.TechUsed}
-                              ProjectURL={project.URL}
-                              ProjectClient={project.Client}
-                              ProjectDate={project.ProjectDate}
-                              SubCategory={project.SubCategory}
-                            >
-                              {" "}
-                            </PortfolioWhiteCard>
-                          ) : (
-                            <div
-                              className="d-flex justify-content-center align-items-center"
-                              style={{ minHeight: "300px" }}
-                            >
-                              No projects here
-                            </div>
-                          )
-                        )}
+                        {PortfolioContent.filter(
+                          (project) => project.Category === "Others"
+                        ).map((project) => (
+                          <PortfolioWhiteCard
+                            Title={project.Title}
+                            Subtitle={project.Subtitle}
+                            Description={project.Description}
+                            Button="Details"
+                            ProjectSlides={project.ImageSlides}
+                            TechUsed={project.TechUsed}
+                            ProjectURL={project.URL}
+                            ProjectClient={project.Client}
+                            ProjectDate={project.ProjectDate}
+                            SubCategory={project.SubCategory}
+                          ></PortfolioWhiteCard>
+                        ))}
                       </div>
                     </div>
                   </div>

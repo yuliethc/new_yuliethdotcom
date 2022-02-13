@@ -1,10 +1,10 @@
 [
   {
     "Id": 1,
-    "Title": "Contatrib ERP - Mi Factura Perú",
+    "Title": "Mi factura Perú",
     "Subtitle": "A web based ERP",
     "Description": "A web-based ERP system integrated to an electronic invoicing system.",
-    "Thumbnail": "/PortfolioImages/devProject1.png",
+    "Thumbnail": null,
     "URL": "https://app.mifacturaperu.com/",
     "TechUsed": [
       "React JS",
@@ -38,6 +38,289 @@
         "alt": "Fift"
       }
     ],
-    "ProjectDate": "2019-2020"
+    "ProjectDate": "2019-2020",
+    "SubCategory": "Web"
+  },
+  {
+    "Id": 2,
+    "Title": "Mi Factura Perú",
+    "Subtitle": "Web system for invoice consultation",
+    "Description": "Developed the Frontend architecture of the Web of an electronic desktop invoicing system to give access to the clients of the companies affiliated to their invoices.",
+    "Thumbnail": null,
+    "URL": "http://www.mifacturaperu.com/",
+    "TechUsed": [
+      "HTML",
+      "CSS"
+    ],
+    "Category": "Development",
+    "Client": "Escobedo Medina Auditores Asociados",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/project2/landing.png",
+        "alt": "Landing"
+      },
+      {
+        "image": "/PortfolioImages/project2/consultation.png",
+        "alt": "Consultation"
+      },
+      {
+        "image": "/PortfolioImages/project2/contact.png",
+        "alt": "Contact"
+      }
+    ],
+    "ProjectDate": "2019",
+    "SubCategory": "Web"
+  },
+  {
+    "Id": 3,
+    "Title": "Mi Factura Perú",
+    "Subtitle": "System Desktop Administrator",
+    "Description": "I was maintaining and developing new characteristics to a desktop app, that handles configuration of administrative functions needed to generate electronic invoices in a multi-business system.",
+    "Thumbnail": null,
+    "URL": "http://www.mifacturaperu.com/descargas",
+    "TechUsed": [
+      "VB .NET",
+      "MySQL"
+    ],
+    "Category": "Development",
+    "Client": "Escobedo Medina Auditores Asociados",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/project3/first.png",
+        "alt": "First"
+      },
+      {
+        "image": "/PortfolioImages/project3/second.png",
+        "alt": "Second"
+      },
+      {
+        "image": "/PortfolioImages/project3/third.png",
+        "alt": "Third"
+      },
+      {
+        "image": "/PortfolioImages/project3/fourth.png",
+        "alt": "Fourth"
+      },
+      {
+        "image": "/PortfolioImages/project3/sixth.png",
+        "alt": "Sixth"
+      },
+      {
+        "image": "/PortfolioImages/project3/seventh.png",
+        "alt": "Seventh"
+      },
+      {
+        "image": "/PortfolioImages/project3/eigth.png",
+        "alt": "Eigth"
+      },
+      {
+        "image": "/PortfolioImages/project3/nineth.png",
+        "alt": "Nineth"
+      }
+    ],
+    "ProjectDate": "2019-2020",
+    "SubCategory": "Desktop"
+  },
+  {
+    "Id": 4,
+    "Title": "The Citizen Journalist",
+    "Subtitle": "Journalism and Storytelling platform",
+    "Description": "The client send me the wireframe made in Adobe XD and I develop the UI.",
+    "Thumbnail": null,
+    "URL": "https://www.fiverr.com/yuliethc/convert-your-figma-adobe-xd-or-sketch-wireframes-to-reactjs",
+    "TechUsed": [
+      "React JS",
+      "React - Bootstrap",
+      "Bootstrap",
+      "Styled - Components"
+    ],
+    "Category": "Development",
+    "Client": "Fiverr",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/project10/1.png",
+        "alt": "First"
+      },
+      {
+        "image": "/PortfolioImages/project10/2.png",
+        "alt": "Second"
+      },
+      {
+        "image": "/PortfolioImages/project10/3.png",
+        "alt": "Third"
+      },
+      {
+        "image": "/PortfolioImages/project10/4.png",
+        "alt": "Fourth"
+      }
+    ],
+    "ProjectDate": "2020",
+    "SubCategory": "Web"
+  },
+  {
+    "Id": 5,
+    "Title": "Delupar",
+    "Subtitle": "On-demand delivery and money transfer App",
+    "Description": "I worked remotely with Avalon team developing a multi-platform app using Ionic-React and Material UI for on-demand delivery, money transfer, business payments, and commercial services. There I created: Layout, Menu, Login, Sign Up, Password Recovery, User and Security.",
+    "Thumbnail": null,
+    "URL": "https://www.fiverr.com/yuliethc/convert-your-figma-adobe-xd-or-sketch-wireframes-to-reactjs",
+    "TechUsed": [
+      "Ionic-React",
+      "Material-UI",
+      "Subversion"
+    ],
+    "Category": "Development",
+    "Client": "Avalon",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/project9/imagen1.png",
+        "alt": "First"
+      },
+      {
+        "image": "/PortfolioImages/project9/imagen2.png",
+        "alt": "Second"
+      },
+      {
+        "image": "/PortfolioImages/project9/imagen3.png",
+        "alt": "Third"
+      },
+      {
+        "image": "/PortfolioImages/project9/imagen4.png",
+        "alt": "Fourth"
+      },
+      {
+        "image": "/PortfolioImages/project9/imagen5.png",
+        "alt": "Fift"
+      }
+    ],
+    "ProjectDate": "2020",
+    "SubCategory": "Web-app"
+  },
+  {
+    "Id": 6,
+    "Title": "Mi Factura Perú",
+    "Subtitle": "High Quality Wireframe",
+    "Description": "I designed and prototyped the model of the project Contatrib ERP - Mi Factura Perú.",
+    "Thumbnail": null,
+    "URL": null,
+    "TechUsed": [
+      "Adobe Photoshop",
+      "Adobe XD"
+    ],
+    "Category": "Others",
+    "Client": "Escobedo Medina Auditores Asociados",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/project4/1.png",
+        "alt": "First"
+      },
+      {
+        "image": "/PortfolioImages/project4/2.png",
+        "alt": "Second"
+      },
+      {
+        "image": "/PortfolioImages/project4/3.png",
+        "alt": "Third"
+      },
+      {
+        "image": "/PortfolioImages/project4/4.png",
+        "alt": "Fourth"
+      },
+      {
+        "image": "/PortfolioImages/project4/5.png",
+        "alt": "Fift"
+      },
+      {
+        "image": "/PortfolioImages/project4/6.png",
+        "alt": "Sixth"
+      }
+    ],
+    "ProjectDate": "2019 - 2020",
+    "SubCategory": "UI & UX"
+  },
+  {
+    "Id": 7,
+    "Title": "Cupcake World",
+    "Subtitle": "Mobile App Landing Page",
+    "Description": "Mobile UI design and copywriting.",
+    "Thumbnail": null,
+    "URL": "https://www.behance.net/gallery/96469701/Cupcake-World-Mobile-App-Landing-Page",
+    "TechUsed": [
+      "Marvel", "Figma"
+    ],
+    "Category": "Others",
+    "Client": "My personal portfolio",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/project5/cupcake.jpg",
+        "alt": "First"
+      }
+    ],
+    "ProjectDate": "2020",
+    "SubCategory": "UI & UX"
+  },
+  {
+    "Id": 8,
+    "Title": "Flick",
+    "Subtitle": "Design",
+    "Description": "Movie social network and rating App design.",
+    "Thumbnail": null,
+    "URL": "https://www.behance.net/gallery/97457551/Flick-app",
+    "TechUsed": [
+      "Adobe XD"
+    ],
+    "Category": "Others",
+    "Client": "My personal portfolio",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/project8/thumbnail.jpg",
+        "alt": "First"
+      }
+    ],
+    "ProjectDate": "2020",
+    "SubCategory": "UI & UX"
+  },
+  {
+    "Id": 9,
+    "Title": "Time…",
+    "Subtitle": "What is time?",
+    "Description": "Time is our company in all our life, wherever we go it's with us. So, is it our friend? Or is it our enemy?",
+    "Thumbnail": null,
+    "URL": "https://yuliethlubo.blogspot.com/2015/10/time-what-is-time.html",
+    "TechUsed": [
+      "Blogger"
+    ],
+    "Category": "Others",
+    "Client": "My personal portfolio",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/project6/thumbnail.jpg",
+        "alt": "First"
+      }
+    ],
+    "ProjectDate": "2015",
+    "SubCategory": "Writing"
+  },
+  {
+    "Id": 10,
+    "Title": "My Pragmatic World",
+    "Subtitle": "English Book",
+    "Description": "English basic level grammar, practice and vocabulary.",
+    "Thumbnail": null,
+    "URL": "https://mypragmaticworld.wordpress.com/category/english-classes/",
+    "TechUsed": [
+      "Microsoft Word",
+      "Canva"
+    ],
+    "Category": "Others",
+    "Client": "Teaching English",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/project7/1.png",
+        "alt": "First"
+      }
+    ],
+    "ProjectDate": "2018",
+    "SubCategory": "Writing"
   }
 ]

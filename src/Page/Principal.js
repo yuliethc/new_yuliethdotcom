@@ -186,7 +186,7 @@ const Principal = () => {
                     className="d-flex justify-content-center flex-wrap"
                   >
                     <StyledWhiteButton Title="SQL"></StyledWhiteButton>
-                    <StyledWhiteButton Title="JavaScript & ReactJS"></StyledWhiteButton>
+                    <StyledWhiteButton Title="ReactJS"></StyledWhiteButton>
                     <StyledWhiteButton Title="HTML & CSS"></StyledWhiteButton>
                     <StyledWhiteButton Title="Python"></StyledWhiteButton>
                     <StyledWhiteButton Title="Git & Github"></StyledWhiteButton>
@@ -195,8 +195,8 @@ const Principal = () => {
                     <StyledWhiteButton Title="Well-organized"></StyledWhiteButton>
                     <StyledWhiteButton Title="Honesty"></StyledWhiteButton>
                     <StyledWhiteButton Title="Accountability"></StyledWhiteButton>
-                    <StyledWhiteButton Title="English"></StyledWhiteButton>
                     <StyledWhiteButton Title="Spanish"></StyledWhiteButton>
+                    <StyledWhiteButton Title="English"></StyledWhiteButton>
                     <StyledWhiteButton Title="Italian"></StyledWhiteButton>
                   </skills>
                 </SkillsSection>

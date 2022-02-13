@@ -457,7 +457,7 @@ const Principal = () => {
                               ProjectDate={project.ProjectDate}
                               SubCategory={project.SubCategory}
                             >
-                              {" "}
+                             
                             </PortfolioWhiteCard>
                           ) : (
                             <div

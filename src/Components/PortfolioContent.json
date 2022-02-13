@@ -4,7 +4,7 @@
     "Title": "Mi factura Perú",
     "Subtitle": "A web based ERP",
     "Description": "A web-based ERP system integrated to an electronic invoicing system.",
-    "Thumbnail": "/PortfolioImages/devProject1.png",
+    "Thumbnail": null,
     "URL": "https://app.mifacturaperu.com/",
     "TechUsed": [
       "React JS",
@@ -46,7 +46,7 @@
     "Title": "Mi Factura Perú",
     "Subtitle": "Web system for invoice consultation",
     "Description": "Developed the Frontend architecture of the Web of an electronic desktop invoicing system to give access to the clients of the companies affiliated to their invoices.",
-    "Thumbnail": "/PortfolioImages/devProject2.png",
+    "Thumbnail": null,
     "URL": "http://www.mifacturaperu.com/",
     "TechUsed": [
       "HTML",
@@ -76,7 +76,7 @@
     "Title": "Mi Factura Perú",
     "Subtitle": "System Desktop Administrator",
     "Description": "I was maintaining and developing new characteristics to a desktop app, that handles configuration of administrative functions needed to generate electronic invoices in a multi-business system.",
-    "Thumbnail": "/PortfolioImages/devProject3.png",
+    "Thumbnail": null,
     "URL": "http://www.mifacturaperu.com/descargas",
     "TechUsed": [
       "VB .NET",
@@ -126,7 +126,7 @@
     "Title": "The Citizen Journalist",
     "Subtitle": "Journalism and Storytelling platform",
     "Description": "The client send me the wireframe made in Adobe XD and I develop the UI.",
-    "Thumbnail": "/PortfolioImages/devProject4.png",
+    "Thumbnail": null,
     "URL": "https://www.fiverr.com/yuliethc/convert-your-figma-adobe-xd-or-sketch-wireframes-to-reactjs",
     "TechUsed": [
       "React JS",
@@ -162,7 +162,7 @@
     "Title": "Delupar",
     "Subtitle": "On-demand delivery and money transfer App",
     "Description": "I worked remotely with Avalon team developing a multi-platform app using Ionic-React and Material UI for on-demand delivery, money transfer, business payments, and commercial services. There I created: Layout, Menu, Login, Sign Up, Password Recovery, User and Security.",
-    "Thumbnail": "/PortfolioImages/project9/imagen1.png",
+    "Thumbnail": null,
     "URL": "https://www.fiverr.com/yuliethc/convert-your-figma-adobe-xd-or-sketch-wireframes-to-reactjs",
     "TechUsed": [
       "Ionic-React",

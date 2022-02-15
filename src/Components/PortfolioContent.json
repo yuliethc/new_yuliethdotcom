@@ -322,5 +322,412 @@
     ],
     "ProjectDate": "2018",
     "SubCategory": "Writing"
+  },
+  {
+    "Id": 11,
+    "Title": "Bachelor's degree in Computer Science education",
+    "Subtitle": "Cum-Laude Honors",
+    "Description": "University degree and Cum-Laude Honors",
+    "Thumbnail": null,
+    "URL": null,
+    "TechUsed":null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/7.jpg",
+        "alt": "University degree certification"
+      },
+      {
+        "image": "/PortfolioImages/certifications/8.jpg",
+        "alt": "Cum-Laude Honors certification"
+      }
+    ],
+    "ProjectDate": "2014",
+    "SubCategory": "Career"
+  },
+  {
+    "Id": 12,
+    "Title": "Advanced English",
+    "Subtitle": null,
+    "Description": "CIENI certification.",
+    "Thumbnail": null,
+    "URL": null,
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/6.jpg",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2014",
+    "SubCategory": "Career"
+  },
+  {
+    "Id": 13,
+    "Title": "English School",
+    "Subtitle": null,
+    "Description": "Platzi Advanced English certification.",
+    "Thumbnail": null,
+    "URL": "https://platzi.com/p/luboyulieth/ruta/13-idioma-ingles/diploma/detalle/",
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/5.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2019",
+    "SubCategory": "Career"
+  },
+  {
+    "Id": 14,
+    "Title": "C1 Advanced English",
+    "Subtitle": null,
+    "Description": "The EF Standard English Test certification.",
+    "Thumbnail": null,
+    "URL": "https://www.efset.org/cert/P6LQ8N",
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/9.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2020",
+    "SubCategory": "Certification"
+  },
+  {
+    "Id": 15,
+    "Title": "SQL for Data Science",
+    "Subtitle": null,
+    "Description": "University of California, Davis Certification.",
+    "Thumbnail": null,
+    "URL": "https://www.coursera.org/account/accomplishments/verify/GQ5UQLA5W75C",
+    "TechUsed": [
+      "Data Science",
+      "Data Analysis",
+      "Sqlite",
+      "SQL"
+    ],
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/4.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2021",
+    "SubCategory": "Course"
+  },
+  {
+    "Id": 16,
+    "Title": "Data Science Methodology",
+    "Subtitle": null,
+    "Description": "IBM Certification.",
+    "Thumbnail": null,
+    "URL": "https://www.coursera.org/account/accomplishments/verify/MFJMR878YN5B",
+    "TechUsed": [
+      "Data Science",
+      "Data Mining"
+    ],
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/1.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2021",
+    "SubCategory": "Course"
+  },
+  {
+    "Id": 17,
+    "Title": "Tools for Data Science",
+    "Subtitle": null,
+    "Description": "IBM Certification.",
+    "Thumbnail": null,
+    "URL": "https://www.coursera.org/account/accomplishments/verify/H2VRM2QFD53Y",
+    "TechUsed": [
+      "Data Science",
+      "Github",
+      "Python",
+      "Jupyter notebooks",
+      "Rstudio"
+    ],
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/2.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2021",
+    "SubCategory": "Course"
+  },
+  {
+    "Id": 18,
+    "Title": "What is Data Science?",
+    "Subtitle": null,
+    "Description": "IBM Certification.",
+    "Thumbnail": null,
+    "URL": "https://www.coursera.org/account/accomplishments/verify/DN8FW5C7Y2NN",
+    "TechUsed": [
+      "Data Science",
+      "Deep Learning",
+      "Machine Learning",
+      "Big Data",
+      "Data Mining"
+    ],
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/3.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2021",
+    "SubCategory": "Course"
+  },
+  {
+    "Id": 19,
+    "Title": "Scrum Foundation Professional Certificate",
+    "Subtitle": null,
+    "Description": "CertiProf Certification.",
+    "Thumbnail": null,
+    "URL": null,
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/10.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2020",
+    "SubCategory": "Certification"
+  },
+  {
+    "Id": 20,
+    "Title": "Database fundamentals",
+    "Subtitle": null,
+    "Description": "Platzi Certification.",
+    "Thumbnail": null,
+    "URL": "https://platzi.com/p/luboyulieth/curso/1566-bd/diploma/detalle/",
+    "TechUsed":["Big Data","Data Science"],
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/17.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2019",
+    "SubCategory": "Certification"
+  },
+  {
+    "Id": 21,
+    "Title": "SQL & MYSL",
+    "Subtitle": null,
+    "Description": "Platzi Certification.",
+    "Thumbnail": null,
+    "URL": "https://platzi.com/p/luboyulieth/curso/1272-sql-mysql/diploma/detalle/",
+    "TechUsed":["Data Analysis","Data Science"],
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/21.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2019",
+    "SubCategory": "Certification"
+  },
+  {
+    "Id": 22,
+    "Title": "Git and Github",
+    "Subtitle": null,
+    "Description": "Platzi Certification.",
+    "Thumbnail": null,
+    "URL": "https://platzi.com/p/luboyulieth/curso/1557-git-github/diploma/detalle/",
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/12.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2019",
+    "SubCategory": "Certification"
+  },
+  {
+    "Id": 23,
+    "Title": "Frontend developer",
+    "Subtitle": null,
+    "Description": "Platzi Certification.",
+    "Thumbnail": null,
+    "URL": "https://platzi.com/p/luboyulieth/curso/1640-frontend-developer-2019/diploma/detalle/",
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/13.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2019",
+    "SubCategory": "Certification"
+  },
+  {
+    "Id": 24,
+    "Title": "Web development",
+    "Subtitle": null,
+    "Description": "Platzi Certification.",
+    "Thumbnail": null,
+    "URL": "https://platzi.com/p/luboyulieth/curso/1350-html5-css3/diploma/detalle/",
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/11.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2019",
+    "SubCategory": "Certification"
+  },
+  {
+    "Id": 25,
+    "Title": "Javascript fundamentals",
+    "Subtitle": null,
+    "Description": "Platzi Certification.",
+    "Thumbnail": null,
+    "URL": "https://platzi.com/p/luboyulieth/curso/1339-fundamentos-javascript-2018/diploma/detalle/",
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/20.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2019",
+    "SubCategory": "Certification"
+  },
+  {
+    "Id": 26,
+    "Title": "Asynchronism with Javascript",
+    "Subtitle": null,
+    "Description": "Platzi Certification.",
+    "Thumbnail": null,
+    "URL": "https://platzi.com/p/luboyulieth/curso/1789-asincronismo-js/diploma/detalle/",
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/18.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2020",
+    "SubCategory": "Certification"
+  },
+  {
+    "Id": 27,
+    "Title": "React.JS",
+    "Subtitle": null,
+    "Description": "Platzi Certification.",
+    "Thumbnail": null,
+    "URL": "https://platzi.com/p/luboyulieth/curso/1548-react-2019/diploma/detalle/",
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/22.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2019",
+    "SubCategory": "Certification"
+  },
+  {
+    "Id": 28,
+    "Title": "Web accessibility",
+    "Subtitle": null,
+    "Description": "Platzi Certification.",
+    "Thumbnail": null,
+    "URL": "https://platzi.com/p/luboyulieth/curso/1802-accesibilidad-web/diploma/detalle/",
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/19.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2020",
+    "SubCategory": "Certification"
+  },
+  {
+    "Id": 29,
+    "Title": "Design thinking",
+    "Subtitle": null,
+    "Description": "Platzi Certification.",
+    "Thumbnail": null,
+    "URL": "https://platzi.com/p/luboyulieth/curso/1210-design-thinking/diploma/detalle/",
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/15.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2019",
+    "SubCategory": "Certification"
+  },
+  {
+    "Id": 30,
+    "Title": "UI & UX Design",
+    "Subtitle": null,
+    "Description": "Platzi Certification.",
+    "Thumbnail": null,
+    "URL": "https://platzi.com/p/luboyulieth/curso/1140-diseno-interfaces-ux-2017/diploma/detalle/",
+    "TechUsed": null,
+    "Category": "Certifications",
+    "Client": "my lifelong learning",
+    "ImageSlides": [
+      {
+        "image": "/PortfolioImages/certifications/14.png",
+        "alt": "Certification"
+      }
+    ],
+    "ProjectDate": "2019",
+    "SubCategory": "Certification"
   }
+ 
+ 
+  
 ]

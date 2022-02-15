@@ -96,9 +96,16 @@ const PortfolioModal = (props) => {
             )}
           </Carousel>
           <Title>Description</Title>
-          <p>{props.Description + " " + "Develop for " + props.ProjectClient  + " in " + props.ProjectDate + "."}</p>
-
-          <Title>Tech used</Title>
+          <p>
+            {props.Description +
+              " " +
+              "Develop for " +
+              props.ProjectClient +
+              " in " +
+              props.ProjectDate +
+              "."}
+          </p>
+          {props.TechUsed ? <Title>Tech</Title> : <div></div>}
           <div className="d-flex justify-content-start align-items-start flex-wrap">
             {props.TechUsed?.map((tech) =>
               tech ? (
@@ -108,10 +115,14 @@ const PortfolioModal = (props) => {
               )
             )}
           </div>
-          <div className="mb-3 d-flex align-items-center justify-content-end">
-            <a href={props.ProjectURL} target="_blank" rel="noreferrer">
-              <StyledButton Title="Visit Site"></StyledButton>
-            </a>
+          <div className="d-flex align-items-center justify-content-end mb-3">
+            {props.ProjectURL ? (
+              <a href={props.ProjectURL} target="_blank" rel="noreferrer">
+                <StyledButton Title="Visit Site"></StyledButton>
+              </a>
+            ) : (
+              <div></div>
+            )}
           </div>
         </Modal.Body>
       </Modal>

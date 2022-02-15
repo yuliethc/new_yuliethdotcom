@@ -190,6 +190,9 @@ const Principal = () => {
                     <StyledWhiteButton Title="HTML & CSS"></StyledWhiteButton>
                     <StyledWhiteButton Title="Python"></StyledWhiteButton>
                     <StyledWhiteButton Title="Git & Github"></StyledWhiteButton>
+                    <StyledWhiteButton Title="Design thinking"></StyledWhiteButton>
+                    <StyledWhiteButton Title="UI & UX"></StyledWhiteButton>
+                    <StyledWhiteButton Title="Copywriting"></StyledWhiteButton>
                     <StyledWhiteButton Title="Strong analytical skills"></StyledWhiteButton>
                     <StyledWhiteButton Title="Teamwork"></StyledWhiteButton>
                     <StyledWhiteButton Title="Well-organized"></StyledWhiteButton>

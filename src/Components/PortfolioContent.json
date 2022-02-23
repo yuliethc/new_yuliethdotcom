@@ -173,23 +173,23 @@
     "Client": "Avalon",
     "ImageSlides": [
       {
-        "image": "/PortfolioImages/project9/imagen1.png",
+        "image": "/PortfolioImages/project9/Imagen1.png",
         "alt": "First"
       },
       {
-        "image": "/PortfolioImages/project9/imagen2.png",
+        "image": "/PortfolioImages/project9/Imagen2.png",
         "alt": "Second"
       },
       {
-        "image": "/PortfolioImages/project9/imagen3.png",
+        "image": "/PortfolioImages/project9/Imagen3.png",
         "alt": "Third"
       },
       {
-        "image": "/PortfolioImages/project9/imagen4.png",
+        "image": "/PortfolioImages/project9/Imagen4.png",
         "alt": "Fourth"
       },
       {
-        "image": "/PortfolioImages/project9/imagen5.png",
+        "image": "/PortfolioImages/project9/Imagen5.png",
         "alt": "Fift"
       }
     ],

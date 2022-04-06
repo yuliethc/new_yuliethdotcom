@@ -149,7 +149,7 @@ const Principal = () => {
             <Col className="d-flex flex-column align-items-center align-items-start justify-content-center align-items-sm-center align-items-lg-start align-items-md-start m-1 p-1">
               <h6>Hello I'm</h6>
               <h1>Yulieth Lubo</h1>
-              <h5>Software Developer & Entry-Level Data Scientist</h5>
+              <h5>Front-end Developer</h5>
 
               <a href="#contact">
                 <StyledWhiteButton Title="Contact me"></StyledWhiteButton>

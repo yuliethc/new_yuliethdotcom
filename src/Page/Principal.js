@@ -168,12 +168,18 @@ const Principal = () => {
                 >
                   <Title>About me</Title>
                   <p class="mb-4 text-center">
-• 2 + years of experience, solid background in programming, creating fully responsive web applications. 
-• Proficiency in React JS, HTML & CSS.
-• Experience in creating mockups and prototypes to emulate users web experience.
-• Excellent communication skills by being a teacher for 4+ years.
-• An insatiable curiosity and lifelong learning.
-• Working to become a full-time data scientist, passionate about database management and data analysis, with good SQL experience to extract and manage data.
+•2 + years of experience, solid background in programming, creating fully responsive web applications. 
+
+•Proficiency in React JS, HTML & CSS.
+
+•Experience in creating mockups and prototypes to emulate users web experience.
+
+•Excellent communication skills by being a teacher for 4+ years.
+
+•An insatiable curiosity and lifelong learning.
+
+•Working to become a full-time data scientist, passionate about database management and data analysis, with good SQL experience to extract and manage data.
+ 
  I'm ready to new challenges, looking for new opportunities.
                   </p>
                   <a href={MyCV} download="CV_Yulieth_Lubo.pdf">

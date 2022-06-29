@@ -193,9 +193,11 @@ const Principal = () => {
                     className="d-flex justify-content-center flex-wrap"
                   >
                     <StyledWhiteButton Title="SQL"></StyledWhiteButton>
+                    <StyledWhiteButton Title="JavaScript"></StyledWhiteButton>
                     <StyledWhiteButton Title="ReactJS"></StyledWhiteButton>
                     <StyledWhiteButton Title="HTML & CSS"></StyledWhiteButton>
                     <StyledWhiteButton Title="Python"></StyledWhiteButton>
+                    <StyledWhiteButton Title="VB.Net"></StyledWhiteButton>
                     <StyledWhiteButton Title="Git & Github"></StyledWhiteButton>
                     <StyledWhiteButton Title="Design thinking"></StyledWhiteButton>
                     <StyledWhiteButton Title="UI & UX"></StyledWhiteButton>

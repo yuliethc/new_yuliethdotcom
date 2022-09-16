@@ -520,8 +520,8 @@ const Principal = () => {
                         delay={{ show: 250, hide: 400 }}
                         overlay={renderTooltip1}
                       >
-                       /* <a
-                          href="https://instagram.com/forever.turista"
+                        <a
+                          href="https://www.instagram.com/giuliettadagostini/"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -530,7 +530,7 @@ const Principal = () => {
                             alt="Instagram link"
                             style={{ height: "50px" }}
                           />
-                        </a>*/
+                        </a>
                       </OverlayTrigger>
                     </div>
                   </div>

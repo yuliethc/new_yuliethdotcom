@@ -149,7 +149,7 @@ const Principal = () => {
             <Col className="d-flex flex-column align-items-center align-items-start justify-content-center align-items-sm-center align-items-lg-start align-items-md-start m-1 p-1">
               <h6>Hello I'm</h6>
               <h1>Yulieth Lubo</h1>
-              <h5>Front-end Developer</h5>
+              <h5>Front-end Developer & Digital content creator</h5>
 
               <a href="#contact">
                 <StyledWhiteButton Title="Contact me"></StyledWhiteButton>
@@ -168,12 +168,19 @@ const Principal = () => {
                 >
                   <Title>About me</Title>
                   <p class="mb-4 text-center">
-                    2 + years of experience, solid background in programming. An
-                    insatiable curiosity and lifelong learning. Working to
-                    become a full-time data scientist, passionate about database
-                    management and data analysis, with good SQL experience to
-                    extract and manage data. Good oral, written communication
-                    and presentation skills by being a teacher for 4+ years.
+•2 + years of experience, solid background in programming, creating fully responsive web applications. 
+
+•Proficiency in React JS, HTML & CSS.
+
+•Experience in creating mockups and prototypes to emulate users web experience.
+
+•Excellent communication skills by being a teacher for 4+ years.
+
+•An insatiable curiosity and lifelong learning.
+
+•Working to become a full-time data scientist, passionate about database management and data analysis, with good SQL experience to extract and manage data.
+ 
+ I'm ready to new challenges, looking for new opportunities.
                   </p>
                   <a href={MyCV} download="CV_Yulieth_Lubo.pdf">
                     <StyledButton Title="Download CV"></StyledButton>
@@ -186,9 +193,11 @@ const Principal = () => {
                     className="d-flex justify-content-center flex-wrap"
                   >
                     <StyledWhiteButton Title="SQL"></StyledWhiteButton>
+                    <StyledWhiteButton Title="JavaScript"></StyledWhiteButton>
                     <StyledWhiteButton Title="ReactJS"></StyledWhiteButton>
                     <StyledWhiteButton Title="HTML & CSS"></StyledWhiteButton>
                     <StyledWhiteButton Title="Python"></StyledWhiteButton>
+                    <StyledWhiteButton Title="VB.Net"></StyledWhiteButton>
                     <StyledWhiteButton Title="Git & Github"></StyledWhiteButton>
                     <StyledWhiteButton Title="Design thinking"></StyledWhiteButton>
                     <StyledWhiteButton Title="UI & UX"></StyledWhiteButton>
@@ -512,7 +521,7 @@ const Principal = () => {
                         overlay={renderTooltip1}
                       >
                         <a
-                          href="https://instagram.com/forever.turista"
+                          href="https://www.instagram.com/forever.turista/"
                           target="_blank"
                           rel="noreferrer"
                         >

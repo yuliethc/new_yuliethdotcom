@@ -9,6 +9,7 @@ import DecoImage1 from "./img/someImages-1.png";
 import Photo from "./img/photo.png";
 import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import MyCV from "./files/CV2022.pdf";
+import MyPortfolio from "./files/Portfolio.pdf";
 import WhiteCard from "./components/WhiteCard";
 import PortfolioWhiteCard from "./components/PortfolioWhiteCard";
 import PortfolioContent from "../Components/PortfolioContent.json";
@@ -184,6 +185,8 @@ const Principal = () => {
                   </p>
                   <a href={MyCV} download="CV_Yulieth_Lubo.pdf">
                     <StyledButton Title="Download CV"></StyledButton>
+                  </a><a href={MyPortfolio} download="Porfolio_Yulieth_Lubo.pdf">
+                    <StyledButton Title="Download Portfolio"></StyledButton>
                   </a>
                 </aboutme>
                 <SkillsSection>
@@ -262,7 +265,7 @@ const Principal = () => {
                         Development
                       </a>
                     </li>
-                    <li class="nav-item">
+                    {/* <li class="nav-item">
                       <a
                         class="nav-link"
                         id="data-science-tab"
@@ -274,7 +277,7 @@ const Principal = () => {
                       >
                         Data Science
                       </a>
-                    </li>
+                    </li> */}
 
                     <li class="nav-item">
                       <a

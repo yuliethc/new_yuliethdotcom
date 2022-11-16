@@ -185,6 +185,8 @@ const Principal = () => {
                   </p>
                   <a href={MyCV} download="CV_Yulieth_Lubo.pdf">
                     <StyledButton Title="Download CV"></StyledButton>
+                  </a><a href={MyPortfolio} download="Porfolio_Yulieth_Lubo.pdf">
+                    <StyledButton Title="Download Portfolio"></StyledButton>
                   </a>
                   <a style={{ marginLeft: "10px" }} href={MyPortfolio} download="Porfolio_Yulieth_Lubo.pdf">
                     <StyledButton Title="Download Portfolio"></StyledButton>

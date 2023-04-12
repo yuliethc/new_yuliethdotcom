@@ -28,8 +28,11 @@ class Header extends Component {
               <Nav.Link className="mr-1 text-light" href="#portfolio">
                 Portfolio
               </Nav.Link>
-              <Nav.Link className="mr-0 text-light" href="#contact">
+              <Nav.Link className="mr-1 text-light" href="#contact">
                 Contact
+              </Nav.Link>
+              <Nav.Link className="mr-0 text-light" href="https://cherry-web.vercel.app/">
+                Cherry Studio Creativo
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

@@ -6,7 +6,7 @@ import StyledWhiteButton from "./components/StyledWhiteButton";
 import ImageHeader from "./img/fondototal1.png";
 import DecoImage from "./img/someImages.png";
 import DecoImage1 from "./img/someImages-1.png";
-import Photo from "./img/photo.png";
+
 import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 
 import WhiteCard from "./components/WhiteCard";
@@ -143,7 +143,7 @@ const Principal = () => {
             className=" position-relative h-100 text-light align-items-center justify-content-center m-0 p-0"
           >
             <Col className="d-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center align-items-sm-start justify-content-sm-center align-items-sm-center d-sm-none d-none d-md-block m-0 p-0">
-              <CentralPhoto src={Photo} alt="Face Photo" />
+              
             </Col>
 
             <Col className="d-flex flex-column align-items-center align-items-start justify-content-center align-items-sm-center align-items-lg-start align-items-md-start m-1 p-1">

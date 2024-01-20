@@ -8,8 +8,7 @@ import DecoImage from "./img/someImages.png";
 import DecoImage1 from "./img/someImages-1.png";
 import Photo from "./img/photo.png";
 import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
-import MyCV from "./files/CV2022.pdf";
-import MyPortfolio from "./files/Portfolio.pdf";
+
 import WhiteCard from "./components/WhiteCard";
 import PortfolioWhiteCard from "./components/PortfolioWhiteCard";
 import PortfolioContent from "../Components/PortfolioContent.json";

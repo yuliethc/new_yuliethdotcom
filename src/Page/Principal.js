@@ -178,7 +178,8 @@ const Principal = () => {
 
 •An insatiable curiosity and lifelong learning.
 
-•Working to become a full-time data scientist, passionate about database management and data analysis, with good SQL experience to extract and manage data.
+•Passionate about database management and data analysis, with good SQL experience to extract and manage data.
+•I'm always ready for new challenges and opportunities. At the moment I'm working on software development solutions using Genexus.
  
  I'm ready to new challenges, looking for new opportunities.
                   </p>

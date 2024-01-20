@@ -183,11 +183,11 @@ const Principal = () => {
  
  I'm ready to new challenges, looking for new opportunities.
                   </p>
-                  <a href={MyCV} download="CV_Yulieth_Lubo.pdf">
-                    <StyledButton Title="Download CV"></StyledButton>
-                  </a><a style={{ marginLeft: "10px" }} href={MyPortfolio} download="Porfolio_Yulieth_Lubo.pdf">
-                    <StyledButton Title="Download Portfolio"></StyledButton>
-                  </a>
+                  //<a href={MyCV} download="CV_Yulieth_Lubo.pdf">
+                  //  <StyledButton Title="Download CV"></StyledButton>
+                  //</a><a style={{ marginLeft: "10px" }} href={MyPortfolio} download="Porfolio_Yulieth_Lubo.pdf">
+                   // <StyledButton Title="Download Portfolio"></StyledButton>
+                  //</a>
                 </aboutme>
                 <SkillsSection>
                   <Title>Skills</Title>

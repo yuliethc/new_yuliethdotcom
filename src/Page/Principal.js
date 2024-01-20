@@ -516,23 +516,7 @@ const Principal = () => {
                           />
                         </a>
                       </OverlayTrigger>
-                      <OverlayTrigger
-                        placement="top"
-                        delay={{ show: 250, hide: 400 }}
-                        overlay={renderTooltip1}
-                      >
-                        <a
-                          href="https://www.instagram.com/forever.turista/"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <img
-                            src={InstagramIcon}
-                            alt="Instagram link"
-                            style={{ height: "50px" }}
-                          />
-                        </a>
-                      </OverlayTrigger>
+                      
                     </div>
                   </div>
                 </ImagenFooter>

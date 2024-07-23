@@ -180,7 +180,7 @@ const Principal = () => {
 
 •Passionate about database management and data analysis, with good SQL experience to extract and manage data.
                     
-•I'm always ready for new challenges and opportunities. At the moment I'm working on software development solutions using Genexus.
+•I'm always ready for new challenges and opportunities.
  
 
                   </p>
